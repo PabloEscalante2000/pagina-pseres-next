@@ -1,0 +1,62 @@
+[
+    {
+        "img": "/assets/carr_img1_new.jpg",
+        "titulo": "NIÑOS Y ADOLESCENTES CON DIFICULTADES DEL APRENDIZAJE"
+    },
+    {
+        "img": "/assets/psicoterapia_familiar.jpg",
+        "titulo": "NIÑOS Y ADOLESCENTES DIAGNOSTICADOS CON TEA O TDAH"
+    },
+    {
+        "img": "/assets/carr_img3_new.jpg",
+        "titulo": "NIÑOS Y ADOLESCENTES NEURO DIVERSOS"
+    },
+    {
+        "img": "/assets/carr_img4.jpg",
+        "titulo": "PADRES CON HIJOS NEURO DIVERSOS (TDAH O TEA)"
+    },
+    {
+        "img": "/assets/carr_img5_new.jpg",
+        "titulo": "niños y adolescentes con problemas de conducta o autoestima"
+    },
+    {
+        "img": "/assets/carr_img6_new.jpg",
+        "titulo": "niños y adolescentes con depresión o ansiedad"
+    },
+    {
+        "img": "/assets/carr_img7_new.jpg",
+        "titulo": "niños y adolescentes con baja tolerancia a la frustración"
+    },
+    {
+        "img": "/assets/carr_img8_new.jpg",
+        "titulo": "niños y adolescentes con dificultades sociales"
+    },
+    {
+        "img": "/assets/familias.webp",
+        "titulo": "familias que buscan mejorar la comunicación y resolver conflictos"
+    },
+    {
+        "img": "/assets/carr_img10.jpg",
+        "titulo": "orientación vocacional para niños y adolescentes"
+    },
+    {
+        "img": "/assets/carr_img11.jpg",
+        "titulo": "niños y adolescentes que requieren tutoría académica"
+    },
+    {
+        "img": "/assets/carr_img12.jpg",
+        "titulo": "niños y adolescentes que busquen tener más estrategias de aprendizaje"
+    },
+    {
+        "img": "/assets/carr_img13.jpg",
+        "titulo": "niños y adolescentes que destacan en habilidades específicas"
+    },
+    {
+        "img": "/assets/carr_img14.jpg",
+        "titulo": "instituciones que necesiten dar talleres a padres o profesores"
+    },
+    {
+        "img": "/assets/carr_img15.jpg",
+        "titulo": "niños y adolescentes que necesiten terapia para manejar estrés"
+    }
+]

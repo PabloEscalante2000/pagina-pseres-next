@@ -1,0 +1,136 @@
+[
+    {
+        "titulo": "FORMANDO PSERES: PROGRAMA DE PROGRESO INTEGRAL",
+        "subtitulo": null,
+        "img": "/assets/img2.webp",
+        "path": "/servicios/formando-pseres",
+        "contenido": [
+            {
+                "tipo": "lista_ol",
+                "divisiones": 1,
+                "data": [
+                    {
+                        "titulo": "Tutoría académica y acompañamiento para el bienestar emocional",
+                        "contenido": [
+                            "Incluye evaluación previa, sesiones de psicoterapia, nivelación y potenciación académica, gimnasio emocional."
+                        ]
+                    },
+                    {
+                        "titulo": "Programa de orientación vocacional “creando mi camino”",
+                        "contenido": []
+                    },
+                    {
+                        "titulo": "Terapias para desarrollar estrategias de aprendizaje",
+                        "contenido": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "CLÍNICA PSERES: TERAPIAS CREADAS PARA CADA NIÑO",
+        "subtitulo": null,
+        "img": "/assets/img3.webp",
+        "path": "/servicios/clinica-de-pseres",
+        "contenido": [
+            {
+                "tipo": "lista_ol",
+                "divisiones": 2,
+                "data": [
+                    {
+                        "titulo": "Terapias del aprendizaje para niños neurodiversos:",
+                        "contenido": [
+                            "Retraso emocional",
+                            "Dificultades en la comprensión",
+                            "Trastorno del Espectro Autista",
+                            "Trastorno de déficit de atención e hiperactividad"
+                        ]
+                    },
+                    {
+                        "titulo": "Programa para asignar “tutora sombra” a niños con TEA, TDAH, problemas conductuales o problemáticas del aprendizaje",
+                        "contenido": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "ESCUCHANDO PSERES: SERVICIOS DE BIENESTAR EMOCIONAL",
+        "subtitulo": "Terapias emocionales y conductuales para casos de:",
+        "img": "/assets/img4.webp",
+        "path": "/servicios/escuchando-pseres",
+        "contenido": [
+            {
+                "tipo": "lista_li",
+                "divisiones": 3,
+                "data": [
+                    "Depresión",
+                    "Ansiedad",
+                    "Impulsividad",
+                    "Mejora de autoestima",
+                    "Modificación de conducta",
+                    "Frustración",
+                    "Atención y concentración",
+                    "Habilidades sociales"
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "CRIANDO PSERES: PROGRAMA PARA PADRES Y TUTORES",
+        "subtitulo": null,
+        "img": "/assets/img5.webp",
+        "path": "/servicios/criando-pseres",
+        "contenido": [
+            {
+                "tipo": "lista_ol",
+                "divisiones": 2,
+                "data": [
+                    {
+                        "titulo": "Psicoterapia Familiar:",
+                        "contenido": [
+                            "Mejorar la comunicación",
+                            "Solucionar conflictos",
+                            "Armonizar la convivencia",
+                            "Lidiar con dificultades"
+                        ]
+                    },
+                    {
+                        "titulo": "Entrenamiento para padres y profesores de niños con trastornos del neurodesarrollo",
+                        "contenido": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "titulo": "PSERES REFLEXIONA: TALLERES PARA COLEGIOS E INSTITUCIONES",
+        "subtitulo": "Adaptamos nuestros talleres a las necesidades de cada institución",
+        "img": "/assets/form_terapeutica.jpg",
+        "path": "/servicios/talleres-para-reflexionar-pseres",
+        "contenido": [
+            {
+                "tipo": "lista_ol",
+                "divisiones": 3,
+                "data": [
+                    {
+                        "titulo": "Talleres de capacitación inclusiva",
+                        "contenido": []
+                    },
+                    {
+                        "titulo": "Talleres para capacitar docentes en problemáticas emocionales",
+                        "contenido": []
+                    },
+                    {
+                        "titulo": "Talleres para estudiantes en bienestar emocional y manejo de estrés",
+                        "contenido": []
+                    },
+                    {
+                        "titulo": "Talleres en empresas para ayudar a padre y madre que trabajas",
+                        "contenido": []
+                    }
+                ]
+            }
+        ]
+    }
+]

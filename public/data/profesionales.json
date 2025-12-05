@@ -1,0 +1,51 @@
+[
+    {
+        "nombre": "César Escalante",
+        "foto": "/assets/cesar.jpg",
+        "span": "CPsP: 29611",
+        "data": [
+            "Psicólogo clínico con Maestría en Neuropsicología",
+            "Psicoterapeuta psicoanalítico con expertiz en transtorno de la personalidad, depresión y ansiedad",
+            "Formación en Terapia Sistemática Familiar",
+            "Docente universitario y asesor en temas de investigacion clínica"
+        ]
+    },
+    {
+        "nombre": "Valeria Arbulú",
+        "foto": "/assets/valeria.jpg",
+        "span": "",
+        "data": [
+            "Facilitador psicoterapéutica Psicoanalítica",
+            "Docente de teoría psicoanalítica en grupo EADES "
+        ]
+    },
+    {
+        "nombre": "Mayte Tupayachi",
+        "foto": "/assets/mayte_psi.jpg",
+        "span": "CPsP: 54995",
+        "data": [
+            "Psicóloga clínica.",
+            "Psicoterapeuta especialista en terapia cognitiva conductual.",
+            "Cursos de especialización en evaluación, diagnóstico, intervención y tratamiento en psicología infantil."
+        ]
+    },
+    {
+        "nombre": "Melissa Huamán",
+        "foto": "/assets/melissa.jpg",
+        "span": "",
+        "data": [
+            "Facilitador psicoterapéutica Psicoanalítica",
+            "Docente de teoría psicoanalítica en grupo EADES "
+        ]
+    },
+    {
+        "nombre": "Mateo del Campo",
+        "foto": "/assets/mateo.jpg",
+        "span": "",
+        "data": [
+            "Licenciado por la Universidad de Navarra en España",
+            "Facilitador psicoanalítico",
+            "Docente de teoría psicoanalítica en grupo EADES "
+        ]
+    }
+]

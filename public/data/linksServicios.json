@@ -1,0 +1,22 @@
+[
+    {
+        "titulo":"Formando Pseres",
+        "path":"/servicios/formando-pseres"
+    },
+    {
+        "titulo":"Clínica de Pseres",
+        "path":"/servicios/clinica-de-pseres"
+    },
+    {
+        "titulo":"Escuchando Pseres",
+        "path":"/servicios/escuchando-pseres"
+    },
+    {
+        "titulo":"Criando Pseres",
+        "path":"/servicios/criando-pseres"
+    },
+    {
+        "titulo":"Talleres para reflexionar",
+        "path":"/servicios/talleres-para-reflexionar-pseres"
+    }
+]

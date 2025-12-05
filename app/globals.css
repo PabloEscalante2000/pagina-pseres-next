@@ -1,26 +1,83 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: "Quirk";
+  src: url("/fonts/Quirk.otf") format("opentype");
+  font-display: swap;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@font-face {
+  font-family: "Century Gothic";
+  src: url('/fonts/Century_Gothic.woff2') format('woff2'),
+  url('/fonts/Century_Gothic.woff') format('woff'),
+  url('/fonts/Century_Gothic.ttf') format('truetype');
+  font-display: swap;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 25%;
+  }
+
+  to {
+    opacity: 1;
+    scale: 100%;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@theme {
+  --color-brown-v1:#ca7b3c;
+  --color-brown-v2:#C39E72;
+  --color-green-v1:#777743;
+  --color-green-v2:#B8BC99;
+  --color-white-v1:#f6f1e1;
+  --color-cream:#C49F72;
+  --font-quirk: "Quirk", sans-serif;
+  --font-century-gothic: "Century Gothic", sans-serif;
+  --aspect-lv: 3 / 1;
+  --aspect-nr: 1 / 2.25;
+}
+
+.anim-nsbloq {
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+
+  animation-timeline: --image;
+  animation-name: show;
+
+  animation-range: entry 25% cover 40%;
+  animation-fill-mode: both;
+}
+
+/* Cambiar el color de las flechas */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ca7b3c !important; /* Cambia a tu color preferido */
+}
+
+/* Cambiar el tamaño de las flechas */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 20px; /* Ajusta el tamaño */
+}
+
+.swiper-pagination-bullet {
+  width: 10px !important;
+  height: 10px !important;
+  background-color: white !important; /* Color predeterminado */
+  opacity: 0.6 !important; /* Transparencia predeterminada */
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ca7b3c !important; /* Color activo */
+  opacity: 1 !important; /* Sin transparencia */
+}
+
+.swiper-pagination-bullet-active {
+  transform: scale(2) !important; /* Aumenta el tamaño */
+}
+
+.swiper-pagination {
+  bottom: 50px !important; /* Ajusta este valor según sea necesario */
 }
