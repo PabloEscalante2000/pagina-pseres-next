@@ -1,0 +1,24 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+# permitir servir archivos de Next
+RewriteRule ^_next/.* - [L]
+
+# permitir archivos estáticos sin tocarlos
+RewriteRule ^.*\.(js|css|png|jpg|jpeg|gif|webp|webm|svg|ico|txt|pdf|json)$ - [L]
+
+# si el archivo o carpeta existe → servir tal cual
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# rutas tipo /pagina/ → /pagina/index.html
+RewriteRule ^([^/]+)/$ /$1/index.html [L]
+
+# rutas profundas /a/b/c/ → /a/b/c/index.html
+RewriteRule ^(.+)$ /$1/index.html [L]
+
+</IfModule>
