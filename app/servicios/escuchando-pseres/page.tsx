@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 
 // Gestión de metadatos nativa de Next.js para un mejor SEO
 export const metadata: Metadata = {
-  title: "Escuchando PSERES",
+  title: "Escuchando PSERES: Servicios de Bienestar Emocional",
   description:
     "La psicoterapia emocional para niños es una intervención lúdica y dinámica que tiene como finalidad potenciar el bienestar emocional, social y conductual del niño en su entorno. Es una intervención terapéutica beneficiosa para aquellos que presentan dificultades con sus emociones y problemas de comportamiento.",
 };

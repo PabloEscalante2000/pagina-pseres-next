@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 
 // Gestión de metadatos nativa de Next.js para un mejor SEO
 export const metadata: Metadata = {
-  title: "Criando PSERES",
+  title: "Criando PSERES: Programa para padres y tutores",
   description:
     "Programa para padres y tutores. Entrenamiento para padres y profesores de niños con trastornos del neurodesarrollo y psicoterapia familiar.",
 };

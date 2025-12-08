@@ -1,3 +1,5 @@
+"use client"
+
 import dataProfesional from '../public/data/profesionales.json';
 import "swiper/css"
 import "swiper/css/navigation"
