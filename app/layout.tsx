@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import WhIcon from "../components/WhIcon"
 import NavMobil from "../components/NavMobil";
+import PromoPopup from "@/components/PromoPopUp";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -43,6 +44,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <PromoPopup />
         <NavMobil />
         {children}
         <WhIcon />
