@@ -20,16 +20,6 @@
         ]
     },
     {
-        "nombre": "Mayte Tupayachi",
-        "foto": "/assets/mayte_psi.jpg",
-        "span": "CPsP: 54995",
-        "data": [
-            "Psicóloga clínica.",
-            "Psicoterapeuta especialista en terapia cognitiva conductual.",
-            "Cursos de especialización en evaluación, diagnóstico, intervención y tratamiento en psicología infantil."
-        ]
-    },
-    {
         "nombre": "Melissa Huamán",
         "foto": "/assets/melissa.jpg",
         "span": "",
@@ -39,13 +29,13 @@
         ]
     },
     {
-        "nombre": "Mateo del Campo",
-        "foto": "/assets/mateo.jpg",
+        "nombre": "Mayra Chávez",
+        "foto": "/assets/mayra_psi.png",
         "span": "",
         "data": [
-            "Licenciado por la Universidad de Navarra en España",
-            "Facilitador psicoanalítico",
-            "Docente de teoría psicoanalítica en grupo EADES "
+            "Psicóloga especializada en la atención de niños y adolescentes.",
+            "Enfoque terapéutico basado en el juego libre.",
+            "Fomento de la autorregulación y conciencia emocional."
         ]
     }
 ]

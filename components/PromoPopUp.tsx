@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { X, MessageCircle } from "lucide-react";
-import { Dialog, DialogContent, DialogOverlay, DialogPortal } from "@/components/ui/dialog";
+import { Dialog, DialogOverlay, DialogPortal } from "@/components/ui/dialog";
 import Image from "next/image";
 
 const PromoPopup = () => {
@@ -31,10 +31,12 @@ const PromoPopup = () => {
 
           {/* Promo image */}
           <div className="rounded-2xl overflow-hidden shadow-2xl animate-scale-in">
-            <img
+            <Image
               src={"/assets/biohuerto.jpeg"}
               alt="El Jardín de mis Emociones - Taller de verano 2026"
               className="w-full h-auto"
+              width={1280}
+              height={1600}
             />
           </div>
 

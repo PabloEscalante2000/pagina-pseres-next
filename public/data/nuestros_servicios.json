@@ -2,7 +2,7 @@
     {
         "titulo": "FORMANDO PSERES: PROGRAMA DE PROGRESO INTEGRAL",
         "subtitulo": null,
-        "img": "/assets/img2.webp",
+        "img": "/assets/new_psi_v1.png",
         "path": "/servicios/formando-pseres",
         "contenido": [
             {
@@ -57,7 +57,7 @@
     {
         "titulo": "ESCUCHANDO PSERES: SERVICIOS DE BIENESTAR EMOCIONAL",
         "subtitulo": "Terapias emocionales y conductuales para casos de:",
-        "img": "/assets/img4.webp",
+        "img": "/assets/new_psi_v2.png",
         "path": "/servicios/escuchando-pseres",
         "contenido": [
             {
