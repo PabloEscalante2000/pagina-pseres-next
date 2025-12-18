@@ -17,7 +17,7 @@ const PromoPopup = () => {
     }
   };
 
-  const currentImage = currentPopup === 1 ? "/assets/biohuerto.jpeg" : "/assets/musicoterapia.png";
+  const currentImage = currentPopup === 1 ? "/assets/biohuerto.png" : "/assets/musicoterapia.png";
   const altText = currentPopup === 1 
     ? "El Jardín de mis Emociones - Taller de verano 2026"
     : "Taller de Musicoterapia para niños";
