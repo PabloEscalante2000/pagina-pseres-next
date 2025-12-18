@@ -37,5 +37,24 @@
             "Enfoque terapéutico basado en el juego libre.",
             "Fomento de la autorregulación y conciencia emocional."
         ]
+    },
+    {
+        "nombre": "Kevin Cubas",
+        "foto": "/assets/psi_kevin_cubas.png",
+        "span": "CPsP: 66725",
+        "data": [
+            "Psicologo clínico.",
+            "Bases en la terapia cognitivo conductual.",
+            "Cursos de especialización en técnicas de entrevista, diagnóstico, intervención y tratamiento en psicología de adultos, así como en niños y adolescentes con TEA."
+        ]
+    },
+    {
+        "nombre": "Leticia Ortiz",
+        "foto": "/assets/edu_leticia.png",
+        "span": "",
+        "data": [
+            "Educadora especializada en trabajo con niños.",
+            "Experiencia en acompañamiento educativo y desarrollo socioemocional."
+        ]
     }
 ]
