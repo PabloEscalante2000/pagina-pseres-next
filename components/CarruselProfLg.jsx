@@ -58,7 +58,7 @@ export default function CarruselProfLg() {
             </div>
             {dataProfesional.map((val,index) => (
             <SwiperSlide key={index}>
-            <div  className="mt-16 sm:p-8 p-2 bg-green-v2/60 rounded-[40px] w-fit bg-opacity-60 h-[600px] m-auto">
+            <div  className="mt-16 sm:p-8 p-2 bg-green-v2/60 rounded-[40px] w-fit bg-opacity-60 h-[650px] m-auto">
                 <Image width={300} height={300} src={val.foto} alt={val.nombre} className={`object-cover sm:w-96 w-64 h-72 rounded-lg m-auto ${index === 0 ? "object-[0%_50%]" : index === 1 ?"object-[0%_20%]": index === 2 ? "object-[0%_30%]":"object-[0%_5%]"}`}/>
                 <h3 className="text-green-v1 font-quirk sm:text-5xl text-4xl text-center mx-auto uppercase pt-1 -pb-2 ">{val.nombre}</h3>
                 <p className="text-green-v1 font-quirk sm:text-2xl text-xl text-center mx-auto uppercase ">{val.span}</p>

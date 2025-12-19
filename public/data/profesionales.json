@@ -1,60 +1,60 @@
 [
-    {
-        "nombre": "César Escalante",
-        "foto": "/assets/cesar.jpg",
-        "span": "CPsP: 29611",
-        "data": [
-            "Psicólogo clínico con Maestría en Neuropsicología",
-            "Psicoterapeuta psicoanalítico con expertiz en transtorno de la personalidad, depresión y ansiedad",
-            "Formación en Terapia Sistemática Familiar",
-            "Docente universitario y asesor en temas de investigacion clínica"
-        ]
-    },
-    {
-        "nombre": "Valeria Arbulú",
-        "foto": "/assets/valeria.jpg",
-        "span": "",
-        "data": [
-            "Facilitador psicoterapéutica Psicoanalítica",
-            "Docente de teoría psicoanalítica en grupo EADES "
-        ]
-    },
-    {
-        "nombre": "Melissa Huamán",
-        "foto": "/assets/melissa.jpg",
-        "span": "",
-        "data": [
-            "Facilitador psicoterapéutica Psicoanalítica",
-            "Docente de teoría psicoanalítica en grupo EADES "
-        ]
-    },
-    {
-        "nombre": "Mayra Chávez",
-        "foto": "/assets/mayra_psi.png",
-        "span": "",
-        "data": [
-            "Psicóloga especializada en la atención de niños y adolescentes.",
-            "Enfoque terapéutico basado en el juego libre.",
-            "Fomento de la autorregulación y conciencia emocional."
-        ]
-    },
-    {
-        "nombre": "Kevin Cubas",
-        "foto": "/assets/psi_kevin_cubas.png",
-        "span": "CPsP: 66725",
-        "data": [
-            "Psicologo clínico.",
-            "Bases en la terapia cognitivo conductual.",
-            "Cursos de especialización en técnicas de entrevista, diagnóstico, intervención y tratamiento en psicología de adultos, así como en niños y adolescentes con TEA."
-        ]
-    },
-    {
-        "nombre": "Leticia Ortiz",
-        "foto": "/assets/edu_leticia.png",
-        "span": "",
-        "data": [
-            "Educadora especializada en trabajo con niños.",
-            "Experiencia en acompañamiento educativo y desarrollo socioemocional."
-        ]
-    }
+  {
+    "nombre": "César Escalante",
+    "foto": "/assets/cesar_new-min.webp",
+    "span": "CPsP: 29611",
+    "data": [
+      "Psicólogo clínico con Maestría en Neuropsicología",
+      "Psicoterapeuta psicoanalítico con expertiz en transtorno de la personalidad, depresión y ansiedad",
+      "Formación en Terapia Sistemática Familiar",
+      "Docente universitario y asesor en temas de investigacion clínica"
+    ]
+  },
+  {
+    "nombre": "Valeria Arbulú",
+    "foto": "/assets/valeria.jpg",
+    "span": "",
+    "data": [
+      "Facilitador psicoterapéutica Psicoanalítica",
+      "Docente de teoría psicoanalítica en grupo EADES "
+    ]
+  },
+  {
+    "nombre": "Melissa Huamán",
+    "foto": "/assets/melissa_new.webp",
+    "span": "",
+    "data": [
+      "Facilitador psicoterapéutica Psicoanalítica",
+      "Docente de teoría psicoanalítica en grupo EADES "
+    ]
+  },
+  {
+    "nombre": "Mayra Chávez",
+    "foto": "/assets/mayra_psi.png",
+    "span": "",
+    "data": [
+      "Psicóloga especializada en la atención de niños y adolescentes.",
+      "Enfoque terapéutico basado en el juego libre.",
+      "Fomento de la autorregulación y conciencia emocional."
+    ]
+  },
+  {
+    "nombre": "Kevin Cubas",
+    "foto": "/assets/psi_kevin_cubas.png",
+    "span": "CPsP: 66725",
+    "data": [
+      "Psicologo clínico.",
+      "Bases en la terapia cognitivo conductual.",
+      "Cursos de especialización en técnicas de entrevista, diagnóstico, intervención y tratamiento en psicología de adultos, así como en niños y adolescentes con TEA."
+    ]
+  },
+  {
+    "nombre": "Leticia Ortiz",
+    "foto": "/assets/edu_leticia.png",
+    "span": "",
+    "data": [
+      "Educadora especializada en trabajo con niños.",
+      "Experiencia en acompañamiento educativo y desarrollo socioemocional."
+    ]
+  }
 ]
