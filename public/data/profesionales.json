@@ -11,24 +11,6 @@
     ]
   },
   {
-    "nombre": "Valeria Arbulú",
-    "foto": "/assets/valeria.jpg",
-    "span": "",
-    "data": [
-      "Facilitador psicoterapéutica Psicoanalítica",
-      "Docente de teoría psicoanalítica en grupo EADES "
-    ]
-  },
-  {
-    "nombre": "Melissa Huamán",
-    "foto": "/assets/melissa_new.webp",
-    "span": "",
-    "data": [
-      "Facilitador psicoterapéutica Psicoanalítica",
-      "Docente de teoría psicoanalítica en grupo EADES "
-    ]
-  },
-  {
     "nombre": "Mayra Chávez",
     "foto": "/assets/mayra_pseres.jpg",
     "span": "CPsP: 67433",
@@ -58,12 +40,30 @@
     ]
   },
   {
+    "nombre": "Melissa Huamán",
+    "foto": "/assets/melissa_new.webp",
+    "span": "",
+    "data": [
+      "Facilitador psicoterapéutica Psicoanalítica",
+      "Docente de teoría psicoanalítica en grupo EADES "
+    ]
+  },
+  {
     "nombre": "Leticia Ortiz",
     "foto": "/assets/leticia_pseres.jpg",
     "span": "",
     "data": [
       "Educadora especializada en trabajo con niños.",
       "Experiencia en acompañamiento educativo y desarrollo socioemocional."
+    ]
+  },
+  {
+    "nombre": "Valeria Arbulú",
+    "foto": "/assets/valeria.jpg",
+    "span": "",
+    "data": [
+      "Facilitador psicoterapéutica Psicoanalítica",
+      "Docente de teoría psicoanalítica en grupo EADES "
     ]
   }
 ]
