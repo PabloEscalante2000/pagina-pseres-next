@@ -30,7 +30,7 @@
   },
   {
     "nombre": "Mayra Chávez",
-    "foto": "/assets/mayra_psi.png",
+    "foto": "/assets/mayra_pseres.jpg",
     "span": "CPsP: 67433",
     "data": [
       "Psicóloga especializada en la atención de niños y adolescentes.",
@@ -49,8 +49,17 @@
     ]
   },
   {
+    "nombre":"Catherin Cermeño Durand",
+    "foto":"/assets/catherine_pseres.jpg",
+    "span":"CPsP: 35863",
+    "data":[
+      "Psicóloga clínica y psicoterapeuta psicoanalítica",
+      "Experiencia en evaluación y atención psicoterapéutica en contextos hospitalarios y en consulta privada a niños, adolescentes y adultos, con especial interés en la primera y segunda infancia."
+    ]
+  },
+  {
     "nombre": "Leticia Ortiz",
-    "foto": "/assets/edu_leticia.png",
+    "foto": "/assets/leticia_pseres.jpg",
     "span": "",
     "data": [
       "Educadora especializada en trabajo con niños.",

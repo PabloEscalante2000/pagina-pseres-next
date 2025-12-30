@@ -19,6 +19,12 @@ export default function CarruselProfLg() {
     return (
     <>
         <div className="w-full relative sm:block hidden">
+              <div className={`custom-prev absolute top-1/2 translate-y-1/2 -left-3 z-50 text-lg w-10 aspect-square ${isStart ? "bg-slate-300/25 text-slate-700":"bg-brown-v2/25 text-brown-v1 "} bg-opacity-25 text-md flex justify-center items-center rounded-lg  hover:scale-95 transition-all cursor-pointer visible`}>
+                    <FontAwesomeIcon icon={faArrowLeft}/>
+              </div>
+              <div className={`custom-next absolute top-1/2 translate-y-1/2 -right-3 z-50 text-lg w-10 aspect-square ${isEnd ? "bg-slate-300/25 text-slate-700":"bg-brown-v2/25 text-brown-v1 "} bg-opacity-25 text-md flex justify-center items-center rounded-lg hover:scale-95 transition-all cursor-pointer visible`}>
+                  <FontAwesomeIcon icon={faArrowRight}/>
+              </div>
         <Swiper
             style={{position: "relative"}}
             modules={[Navigation]}
@@ -48,14 +54,14 @@ export default function CarruselProfLg() {
             },
             }}
         >
-            <div className="absolute flex gap-2 top-5 left-12">
+            {/* <div className="absolute flex gap-2 top-5 left-12">
             <button className={`custom-prev text-lg w-10 aspect-square ${isStart ? "bg-slate-300/25 text-slate-700":"bg-brown-v2/25 text-brown-v1 "} bg-opacity-25 text-md flex justify-center items-center rounded-lg  hover:scale-95 transition-all cursor-pointer -translate-y-1/2 top-1/2 left-0 z-50 visible`} aria-label='Profesional previo'>
                 <FontAwesomeIcon icon={faArrowLeft}/>
             </button>
             <button aria-label='Siguiente Profesional' className={`custom-next text-lg w-10 aspect-square ${isEnd ? "bg-slate-300/25 text-slate-700":"bg-brown-v2/25 text-brown-v1 "} bg-opacity-25 text-md flex justify-center items-center rounded-lg hover:scale-95 transition-all cursor-pointer -translate-y-1/2 top-1/2 right-0 z-50 visible`}>
                 <FontAwesomeIcon icon={faArrowRight}/>
             </button>
-            </div>
+            </div> */}
             {dataProfesional.map((val,index) => (
             <SwiperSlide key={index}>
             <div  className="mt-16 sm:p-8 p-2 bg-green-v2/60 rounded-[40px] w-fit bg-opacity-60 h-[650px] m-auto">
