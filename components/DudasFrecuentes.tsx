@@ -65,7 +65,7 @@ export default function DudasFrecuentes() {
           {arrayPreguntas.map((val, index) => (
             <div
               key={index}
-              className="sm:w-[207px] sm:h-[204px] flex sm:flex-col sm:justify-center sm:items-center sm:gap-0 gap-2 flex-row justify-between w-full shadow-md rounded-[25px] sm:px-5 px-5 py-5 bg-brown-v2/15 bg-opacity-15"
+              className="sm:w-[207px] sm:h-[204px] flex sm:flex-col sm:justify-center sm:items-center sm:gap-0 gap-2 flex-row justify-between w-full shadow-md rounded-[25px] px-5 py-5 bg-brown-v2/15 bg-opacity-15"
             >
               <div className="flex-auto flex sm:justify-center sm:items-center">
                 <p className="text-left text-brown-v1 font-century-gothic  sm:text-md text-[17px] font-semibold">

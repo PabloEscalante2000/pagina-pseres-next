@@ -63,8 +63,8 @@ export default function NSBlock({color, element}) {
         </section>
         <div className="flex md:flex-row
           justify-end items-end gap-5 flex-none font-semibold py-3">
-          <Link href={element.path} className={`rounded-xl sm:px-5 sm:py-2 px-4 py-1 sm:text-base text-sm text-white-v1 font-century-gothic underline transition-all hover:scale-95 ${bgColor}`} aria-label="Más información">
-            <span className="sm:inline-block hidden underline">Más</span> información
+          <Link href={element.path} className={`no-underline rounded-xl sm:px-5 sm:py-2 px-4 py-1 sm:text-base text-sm text-white-v1 font-century-gothic transition-all hover:scale-95 ${bgColor}`} aria-label="Más información">
+            <span className="sm:inline-block hidden">Más</span> información
           </Link>
           <a className={`rounded-xl sm:px-5 sm:py-2 px-4 py-1 sm:text-base text-sm text-white-v1 font-century-gothic transition-all hover:scale-95 ${bgColor}`} href="https://api.whatsapp.com/send?phone=51966968791&text=Buenos%20d%C3%ADas,%20quisiera%20saber%20m%C3%A1s%20sobre%20sus%20servicios" target="_blank" aria-label="Agenda una cita" rel="noopener noreferrer">Agenda <span className="sm:inline-block hidden">una Cita</span></a>
         </div>
