@@ -1,5 +1,6 @@
 [
   {
+    "id": "cesar",
     "nombre": "César Escalante",
     "foto": "/assets/cesar_new-min.webp",
     "span": "CPsP: 29611",
@@ -11,6 +12,7 @@
     ]
   },
   {
+    "id": "kevin",
     "nombre": "Kevin Cubas",
     "foto": "/assets/psi_kevin_cubas.png",
     "span": "CPsP: 66725",
@@ -21,6 +23,7 @@
     ]
   },
   {
+    "id": "catherin",
     "nombre":"Catherin Cermeño Durand",
     "foto":"/assets/catherine_pseres.jpg",
     "span":"CPsP: 35863",
@@ -30,6 +33,7 @@
     ]
   },
   {
+    "id": "melissa",
     "nombre": "Melissa Huamán",
     "foto": "/assets/melissa_new.webp",
     "span": "",
@@ -39,6 +43,7 @@
     ]
   },
   {
+    "id": "natalia",
     "nombre": "Natalia Escalante",
     "foto": "/assets/natalia_pseres.jpeg",
     "span": "",
@@ -50,6 +55,27 @@
     ]
   },
   {
+    "id": "silvana",
+    "nombre": "Silvana Corvetto",
+    "foto": "/assets/silvana_pseres.png",
+    "span": "",
+    "data": [
+      "Psicoterapeuta Gestalt y Especialista en Estimulación Temprana, con experiencia brindando acompañamiento emocional a niños, adolescentes y adultos",
+      "Promoviendo el autoconocimiento, bienestar y crecimiento personal."
+    ]
+  },
+  {
+    "id": "sheila",
+    "nombre": "Sheila",
+    "foto": "/assets/sheila_pseres.png",
+    "span": "CPsP: 60964",
+    "data": [
+      "Licenciada en psicología con experiencia en el acompañamiento emocional de niños y adolescentes.",
+      "Orientada a la comprensión y fortalecimiento de sus recursos emocionales, conductuales y relacionales."
+    ]
+  },
+  {
+    "id": "valeria",
     "nombre": "Valeria Arbulú",
     "foto": "/assets/valeria.jpg",
     "span": "",

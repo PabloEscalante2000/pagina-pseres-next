@@ -62,7 +62,7 @@ export default function HomePage() {
             height={500}
             src={"/assets/titular_porque_elegirnos.png"}
             alt="PSERES elígenos"
-            className="mx-auto lg:w-auto w-64"
+            className={`mx-auto lg:w-auto w-64`}
           />
           <h2 className="lg:text-9xl text-6xl leading-9 lg:leading-11 text-center">
             MODELO PSERES
