@@ -15,13 +15,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata : Metadata = {
+export const metadata: Metadata = {
   title: "PSERES",
   description: "Pseres es un centro de psicoterapia y psicoeducación dedicado a la formación integral de niños y adolescentes. Potenciamos su curiosidad y creatividad, ayudándolos a reflexionar sobre lo aprendido y explorar nuevas alternativas de solución para promover su autonomía y éxito en todas las áreas de su vida. Nuestro equipo está conformado por profesionales en psicoterapia, psicología, neuropsicología y educación quienes en conjunto abordan todos los aspectos del bienestar del niño y diseñan un plan personalizado para cada uno.",
   icons: {
-   icon: "/favicon.ico",
-   apple: "/apple-touch-icon.png",
-   shortcut: "/icon.png",
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+    shortcut: "/icon.png",
   },
   keywords: ["psicología", "terapia", "blog", "educación", "psicoeducación"],
   openGraph: {
@@ -44,7 +44,6 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <PromoPopup />
         <NavMobil />
         {children}
         <WhIcon />

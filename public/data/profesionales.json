@@ -66,16 +66,6 @@
     ]
   },
   {
-    "id": "sheila",
-    "nombre": "Sheylla Becerra",
-    "foto": "/assets/sheila_pseres.png",
-    "span": "CPsP: 60964",
-    "data": [
-      "Licenciada en psicología con experiencia en el acompañamiento emocional de niños y adolescentes.",
-      "Orientada a la comprensión y fortalecimiento de sus recursos emocionales, conductuales y relacionales."
-    ]
-  },
-  {
     "id": "valeria",
     "nombre": "Valeria Arbulú",
     "foto": "/assets/valeria.jpg",
