@@ -55,17 +55,6 @@
     ]
   },
   {
-    "id": "silvana",
-    "nombre": "Silvana Corvetto",
-    "foto": "/assets/silvana_pseres.png",
-    "span": "",
-    "data": [
-      "Psicoterapeuta Gestalt y Especialista en Estimulación Temprana, con experiencia brindando acompañamiento emocional a niños, adolescentes y adultos",
-      "Promoviendo el autoconocimiento, bienestar y crecimiento personal.",
-      "Licenciada en psicología y psicoterapeuta Gestalt"
-    ]
-  },
-  {
     "id": "valeria",
     "nombre": "Valeria Arbulú",
     "foto": "/assets/valeria.jpg",
