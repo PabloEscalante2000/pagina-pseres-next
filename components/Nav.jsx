@@ -49,7 +49,7 @@ export default function Nav() {
                     >
                         SERVICIOS
                     </button>
-                    <ul className="absolute top-full mt-2 h-0 overflow-y-hidden group-hover:h-fit px-3 bg-green-v1/40 bg-opacity-40 gap-3 flex flex-col transition-all font-medium z-10 whitespace-nowrap">
+                    <ul className="absolute h-0 overflow-y-hidden group-hover:h-fit px-3 bg-green-v1/40 bg-opacity-40 gap-3 flex flex-col transition-all font-medium z-10 whitespace-nowrap">
                         {dataServLinks.map((val, index) => (
                             <li className="text-left p-1" key={index}>
                                 <Link href={val.path} className={pathname === val.path ? "underline" : ""}>
@@ -89,7 +89,7 @@ export default function Nav() {
                     >
                         EVENTOS
                     </button>
-                    <ul className="absolute top-full mt-2 h-0 overflow-y-hidden group-hover:h-fit px-3 bg-green-v1/40 bg-opacity-40 gap-3 flex flex-col transition-all font-medium z-10 whitespace-nowrap">
+                    <ul className="absolute h-0 overflow-y-hidden group-hover:h-fit px-3 bg-green-v1/40 bg-opacity-40 gap-3 flex flex-col transition-all font-medium z-10 whitespace-nowrap">
                         {dataEventosLinks.map((val, index) => (
                             <li className="text-left p-1" key={index}>
                                 <Link href={val.path} className={pathname === val.path ? "underline" : ""}>
