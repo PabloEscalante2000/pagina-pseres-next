@@ -3,6 +3,7 @@
 import { List, ListItemButton, Collapse } from "@mui/material"
 import { ExpandLess, ExpandMore } from "@mui/icons-material"
 import dataServLinks from '@/public/data/linksServicios.json';
+import dataEventosLinks from '@/public/data/linksEventos.json';
 import { useRouter, usePathname } from 'next/navigation';
 import {useStore} from '../store/NavStore';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -19,6 +20,8 @@ export default function NavMobil() {
   const listD = useStore((store) => store.listD)
   const setModal = useStore((store) => store.setModal)
   const setListD = useStore((store) => store.setListD)
+  const listEventos = useStore((store) => store.listEventos)
+  const setListEventos = useStore((store) => store.setListEventos)
 
   return (
     <nav className={`fixed w-full h-full transition-all ease-in-out duration-1000 z-999 overflow-y-auto bg-brown-v2 ${modal ? "left-0 top-0 opacity-100":"left-full top-8 opacity-0"}`}>
@@ -69,6 +72,33 @@ export default function NavMobil() {
                             {val.titulo}
                         </p>
                         
+                        </ListItemButton>
+                    ))}
+                </List>
+            </Collapse>
+            <ListItemButton onClick={() => setListEventos(!listEventos)}>
+                <div className='flex justify-between w-full border border-b-white-v1 border-b border-x-0 border-t-0 pb-3'>
+                <p className='text-[20px]'>EVENTOS</p>
+                {listEventos ? <ExpandLess/>:<ExpandMore/>}
+                </div>
+            </ListItemButton>
+            <Collapse in={listEventos} timeout="auto" unmountOnExit>
+                <List component="div" disablePadding
+                    sx={{
+                        fontFamily:"'Century Gothic'",
+                        bgcolor:"#C39E72",
+                        borderRadius:"14px",
+                        color:"#f6f1e1"
+                    }}
+                >
+                    {dataEventosLinks.map((val,index) => (
+                        <ListItemButton sx={{ pl: 4 }} key={index} onClick={() => {
+                        router.push(val.path)
+                        setModal(false)
+                        }}>
+                        <p className='text-xl w-full border border-b-white-v1 border-b border-x-0 border-t-0 pb-3'>
+                            {val.titulo}
+                        </p>
                         </ListItemButton>
                     ))}
                 </List>

@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import dataServLinks from '@/public/data/linksServicios.json';
+import dataEventosLinks from '@/public/data/linksEventos.json';
 import { useStore } from '../store/NavStore';
 
 export default function Nav() {
@@ -28,7 +29,7 @@ export default function Nav() {
                 }}
                 priority
             />
-            <ul className="md:flex hidden justify-between max-w-[800px] items-center gap-4 mx-4 text-white-v1 font-semibold flex-auto">
+            <ul className="md:flex hidden justify-between max-w-[900px] items-center gap-4 mx-4 text-white-v1 font-semibold flex-auto whitespace-nowrap">
                 <li>
                     <Link href={"/"} className={pathname === "/" ? "underline" : ""}>
                         INICIO
@@ -80,6 +81,23 @@ export default function Nav() {
                     }}
                 >
                     NOSOTROS
+                </li>
+                <li className="relative group">
+                    <button
+                        className={pathname.includes("/eventos") ? "underline" : ""}
+                        aria-label="Eventos"
+                    >
+                        EVENTOS
+                    </button>
+                    <ul className="absolute h-0 overflow-y-hidden group-hover:h-fit px-3 bg-green-v1/40 bg-opacity-40 gap-3 flex flex-col transition-all font-medium z-10">
+                        {dataEventosLinks.map((val, index) => (
+                            <li className="text-left p-1" key={index}>
+                                <Link href={val.path} className={pathname === val.path ? "underline" : ""}>
+                                    {val.titulo}
+                                </Link>
+                            </li>
+                        ))}
+                    </ul>
                 </li>
                 <li>
                     <Link href={"/"} className={pathname === "/blog" ? "underline" : ""}>
