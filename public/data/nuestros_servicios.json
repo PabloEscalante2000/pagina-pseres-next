@@ -1,5 +1,31 @@
 [
     {
+        "titulo":"EVALUACIONES ESPECIALIZADAS RÁPIDAS",
+        "subtitulo":"Evalúe el desarrollo y bienestar de su hijo(a) de forma ágil y profesional",
+        "img": "/assets/pseres_servicio_evaluaciones.webp",
+        "path": "/servicios/evaluaciones-especializadas",
+        "contenido": [
+            {
+                "tipo": "lista_ol",
+                "divisiones": 3,
+                "data": [
+                    {
+                        "titulo": "Atención Especializada",
+                        "contenido": []
+                    },
+                    {
+                        "titulo": "Resultados ágiles",
+                        "contenido": []
+                    },
+                    {
+                        "titulo": "Informe profesional",
+                        "contenido": []
+                    }
+                ]
+            }
+        ]
+    }
+    ,{
         "titulo": "FORMANDO PSERES: PROGRAMA DE PROGRESO INTEGRAL",
         "subtitulo": null,
         "img": "/assets/new_psi_v1.png",

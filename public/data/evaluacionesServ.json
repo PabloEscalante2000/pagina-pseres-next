@@ -1,0 +1,110 @@
+[
+  {
+    "titulo": "1. Evaluación de Aprendizaje Express",
+    "recomendado": false,
+    "variantes": [
+      {
+        "nombre": "Básica",
+        "descripcion": "6 a 7 años | 1° y 2° primaria",
+        "sesiones": "2 sesiones",
+        "evalua": ["habilidades de lectura", "matemática", "atención"],
+        "evalua_secciones": null,
+        "incluye": "Devolución verbal e Informe breve orientativo",
+        "precio": "S/320"
+      },
+      {
+        "nombre": "Completa",
+        "descripcion": "8 años a más | 3° primaria en adelante",
+        "sesiones": "3 sesiones",
+        "evalua": ["lectura", "matemática", "atención", "escritura"],
+        "evalua_secciones": null,
+        "incluye": "Devolución verbal e Informe breve orientativo",
+        "precio": "S/420"
+      }
+    ]
+  },
+  {
+    "titulo": "2. Evaluación Cognitiva Express",
+    "recomendado": false,
+    "variantes": [
+      {
+        "nombre": null,
+        "descripcion": null,
+        "sesiones": "2 sesiones",
+        "evalua": ["coeficiente intelectual", "habilidades cognitivas", "razonamiento", "memoria de trabajo", "velocidad de procesamiento"],
+        "evalua_secciones": null,
+        "incluye": "Sesión de devolución e Informe orientativo",
+        "precio": "S/450"
+      }
+    ]
+  },
+  {
+    "titulo": "3. Pack Aprendizaje + Cognitiva",
+    "recomendado": true,
+    "variantes": [
+      {
+        "nombre": null,
+        "descripcion": null,
+        "sesiones": "4 a 5 sesiones",
+        "evalua": null,
+        "evalua_secciones": [
+          {
+            "nombre": "Área académica",
+            "items": ["lectura", "matemática", "atención", "escritura (desde 3° primaria)"]
+          },
+          {
+            "nombre": "Área cognitiva",
+            "items": ["coeficiente intelectual", "habilidades cognitivas"]
+          }
+        ],
+        "incluye": "Informe completo e Devolución profesional",
+        "precio": "S/740"
+      }
+    ]
+  },
+  {
+    "titulo": "4. Descarte de Ansiedad / Depresión",
+    "recomendado": false,
+    "variantes": [
+      {
+        "nombre": null,
+        "descripcion": "niños mayores de 7 años",
+        "sesiones": "3 sesiones",
+        "evalua": ["indicadores de ansiedad", "estado emocional", "síntomas depresivos", "funcionamiento conductual", "adaptación emocional"],
+        "evalua_secciones": null,
+        "incluye": "Informe y Recomendaciones iniciales",
+        "precio": "S/450"
+      }
+    ]
+  },
+  {
+    "titulo": "5. Evaluación Conductual Socioemocional Express",
+    "recomendado": false,
+    "variantes": [
+      {
+        "nombre": null,
+        "descripcion": "niños mayores de 7 años",
+        "sesiones": "3 sesiones",
+        "evalua": ["ansiedad", "depresión", "conducta", "habilidades socioemocionales", "adaptación conductual"],
+        "evalua_secciones": null,
+        "incluye": "Informe y Devolución profesional",
+        "precio": "S/520"
+      }
+    ]
+  },
+  {
+    "titulo": "6. Orientación Vocacional",
+    "recomendado": false,
+    "variantes": [
+      {
+        "nombre": null,
+        "descripcion": "12 años a más",
+        "sesiones": "3 sesiones",
+        "evalua": ["personalidad", "intereses profesionales", "aptitudes verbales", "razonamiento lógico", "área numérica", "orientación de perfil"],
+        "evalua_secciones": null,
+        "incluye": "Devolución e Informe vocacional",
+        "precio": "S/390"
+      }
+    ]
+  }
+]
