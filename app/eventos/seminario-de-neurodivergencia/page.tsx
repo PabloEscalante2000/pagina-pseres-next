@@ -22,21 +22,47 @@ const aprendizajes = [
 const programa = [
   {
     numero: "01",
-    titulo: "Entendiendo lo que realmente le pasa al niño",
+    fecha: "Sábado 5 de Junio",
+    titulo: "Comprender la neurodivergencia",
     descripcion:
-      "Neurodivergencia, tipos más frecuentes, desarrollo cerebral, conducta y límites del diagnóstico.",
+      "Qué es la neurodivergencia y por qué hoy ya no se entiende solo como un trastorno o un déficit. Se abordan la regulación del sistema nervioso, el procesamiento sensorial, la co-regulación y el sentido adaptativo de conductas como el stimming, el enmascaramiento social o los intereses intensos.",
   },
   {
     numero: "02",
-    titulo: "Qué hacer cuando no encaja en el aula o en casa",
+    fecha: "Sábado 13 de Junio",
+    titulo: "Comprender el malestar y mejorar el acompañamiento",
     descripcion:
-      "Adaptaciones, lectura práctica del diagnóstico, herramientas de acompañamiento y trabajo conjunto familia-escuela.",
+      "Lo que realmente genera sufrimiento: sobrecarga sensorial, ansiedad, agotamiento y burnout autista. Orientaciones prácticas para docentes y familias sobre cómo acompañar mejor, prevenir crisis y construir espacios más previsibles, seguros y respetuosos.",
   },
   {
     numero: "03",
-    titulo: "Cómo acompañar su futuro sin dañarlo",
+    fecha: "Sábado 20 de Junio",
+    titulo: "Intervenir con una mirada afirmativa e integral",
     descripcion:
-      "Adolescencia, identidad, sexualidad, autonomía, proyecto de vida y transición a la adultez.",
+      "Herramientas para la intervención desde una perspectiva afirmativa. Enfoques actuales en clínica y educación, criterios para trabajar con estudiantes, hijos y pacientes desde la validación, la autonomía, la comunicación clara y el apoyo integral.",
+  },
+];
+
+const publico = [
+  {
+    icono: "👩‍🏫",
+    titulo: "Docentes",
+    descripcion: "Que deseen comprender mejor a estudiantes neurodivergentes y fortalecer sus prácticas de inclusión.",
+  },
+  {
+    icono: "👨‍👩‍👧",
+    titulo: "Padres y cuidadores",
+    descripcion: "Interesados en acompañar con mayor claridad, sensibilidad y conocimiento.",
+  },
+  {
+    icono: "🎓",
+    titulo: "Estudiantes de Psicología",
+    descripcion: "Que busquen una visión actualizada y comprensible sobre neurodivergencia.",
+  },
+  {
+    icono: "🧠",
+    titulo: "Psicólogos y profesionales afines",
+    descripcion: "Que quieran enriquecer su mirada clínica y psicoeducativa.",
   },
 ];
 
@@ -164,6 +190,9 @@ export default function SeminarioNeurodivergenciaPage() {
               <span className="text-white-v1/60 font-quirk text-5xl leading-none">
                 {sesion.numero}
               </span>
+              <p className="text-brown-v1 font-century-gothic text-sm font-semibold uppercase tracking-wider">
+                {sesion.fecha}
+              </p>
               <h3 className="text-white-v1 font-century-gothic font-bold sm:text-2xl text-xl leading-tight uppercase">
                 {sesion.titulo}
               </h3>
@@ -173,6 +202,33 @@ export default function SeminarioNeurodivergenciaPage() {
             </article>
           ))}
         </div>
+      </section>
+
+      {/* DIRIGIDO A */}
+      <section className="bg-green-v2 py-16 sm:px-24 px-8">
+        <h2 className="text-green-v1 font-quirk sm:text-6xl text-4xl text-center mb-12">
+          DIRIGIDO A
+        </h2>
+        <div className="max-w-5xl mx-auto grid sm:grid-cols-2 grid-cols-1 gap-6">
+          {publico.map((item, index) => (
+            <div key={index} className="bg-white-v1 rounded-2xl p-6 flex gap-4 items-start">
+              <span className="text-4xl flex-none">{item.icono}</span>
+              <div>
+                <h3 className="text-green-v1 font-century-gothic font-bold sm:text-xl text-lg uppercase mb-1">
+                  {item.titulo}
+                </h3>
+                <p className="text-green-v1 font-century-gothic sm:text-base text-sm leading-6">
+                  {item.descripcion}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <p className="text-green-v1 font-century-gothic sm:text-lg text-base max-w-4xl mx-auto mt-10 text-center leading-8">
+          Brindar una comprensión actualizada, clara y aplicable de la neurodivergencia, de modo que los participantes
+          puedan identificar mejor sus manifestaciones, comprender qué factores producen malestar y contar con criterios
+          prácticos para acompañar de forma más humana, sensible e inclusiva.
+        </p>
       </section>
 
       {/* EXPOSITOR */}
