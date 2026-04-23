@@ -224,7 +224,7 @@ export default function MasAllaDelDiagnosticoPage() {
             </h3>
             <p className="text-white-v1 font-century-gothic sm:text-lg text-base leading-8 sm:leading-10">
               Psicólogo y psicoterapeuta, autor de la obra{" "}
-              <em>"Cuando el cerebro va por otro camino"</em> y referente clínico dentro del
+              <em>&quot;Cuando el cerebro va por otro camino&quot;</em> y referente clínico dentro del
               ecosistema EADES. Su trabajo integra comprensión clínica, divulgación rigurosa y una
               mirada profundamente humana sobre los procesos del desarrollo, la salud mental y el
               acompañamiento familiar.
