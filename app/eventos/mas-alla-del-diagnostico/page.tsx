@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const programa = [
   {
     numero: "01",
-    fecha: "Sábado 5 de Junio",
+    fecha: "Sábado 6 de Junio",
     titulo: "Comprender la neurodivergencia",
     descripcion:
       "Qué es la neurodivergencia y por qué hoy ya no se entiende solo como un trastorno o un déficit. Se abordan la regulación del sistema nervioso, el procesamiento sensorial, la co-regulación y el sentido adaptativo de conductas como el stimming, el enmascaramiento social o los intereses intensos. La sesión ayudará a mirar la neurodivergencia con más profundidad y menos prejuicio.",
@@ -34,7 +34,7 @@ const programa = [
     titulo: "Intervenir con una mirada afirmativa e integral",
     descripcion:
       "Herramientas para la intervención y el acompañamiento desde una perspectiva afirmativa. Enfoques actuales en clínica y educación, criterios para trabajar con estudiantes, hijos, pacientes y familias desde la validación, la autonomía, la comunicación clara y el apoyo integral.",
-    imagen: "/assets/familias.webp",
+    imagen: "/assets/kevin_evento.png",
     alt: "Intervenir con una mirada afirmativa e integral",
   },
 ];
@@ -121,7 +121,7 @@ export default function MasAllaDelDiagnosticoPage() {
           </div>
           <div className="lg:w-96 w-full flex-none">
             <Image
-              src="/assets/new_psi_v1.png"
+              src="/assets/melissa_evento.png"
               alt="Seminario Más allá del diagnóstico"
               width={384}
               height={480}
@@ -209,12 +209,12 @@ export default function MasAllaDelDiagnosticoPage() {
           EXPOSITOR
         </h2>
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row gap-10 items-center">
-          <div className="sm:w-72 w-56 flex-none">
+          <div className="sm:w-96 w-72 flex-none">
             <Image
-              src="/assets/cesar_new-min.webp"
+              src="/assets/cesar_evento.jpeg"
               alt="César Andrés Escalante Sifuentes"
-              width={288}
-              height={360}
+              width={384}
+              height={480}
               className="rounded-2xl object-cover w-full aspect-[3/4]"
             />
           </div>
@@ -223,11 +223,10 @@ export default function MasAllaDelDiagnosticoPage() {
               César Andrés Escalante Sifuentes
             </h3>
             <p className="text-white-v1 font-century-gothic sm:text-lg text-base leading-8 sm:leading-10">
-              Psicólogo y psicoterapeuta, autor de la obra{" "}
-              <em>&quot;Cuando el cerebro va por otro camino&quot;</em> y referente clínico dentro del
-              ecosistema EADES. Su trabajo integra comprensión clínica, divulgación rigurosa y una
-              mirada profundamente humana sobre los procesos del desarrollo, la salud mental y el
-              acompañamiento familiar.
+              Neuropsicólogo y psicoterapeuta, referente clínico dentro del ecosistema EADES.
+              Especializado en el estudio y acompañamiento de personas neurodivergentes, su trabajo
+              integra comprensión clínica, neurociencia aplicada y una mirada profundamente humana
+              sobre los procesos del desarrollo, la salud mental y el acompañamiento familiar.
             </p>
             <p className="text-white-v1 font-century-gothic sm:text-lg text-base leading-8 sm:leading-10">
               En este seminario propone una lectura que conecta neurociencia, práctica educativa y
@@ -245,6 +244,8 @@ export default function MasAllaDelDiagnosticoPage() {
         </h2>
         <p className="text-white-v1 font-century-gothic sm:text-xl text-base text-center max-w-xl leading-8">
           Cupos limitados. Junio 2026 · 3 sábados · 3 horas cada sesión.
+          <br />
+          Presencial en Miraflores · También disponible en modalidad virtual.
         </p>
         <a
           href="https://api.whatsapp.com/send?phone=51966968791&text=Hola,%20quisiera%20inscribirme%20al%20seminario%20M%C3%A1s%20all%C3%A1%20del%20diagn%C3%B3stico"
