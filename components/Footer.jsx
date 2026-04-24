@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -32,14 +33,12 @@ export default function Footer() {
                     Centro Pseres: Psicoterapia y Psicoeducación
                 </p>
             </div>
-            <section className='flex flex-col justify-center items-center'>
-                <Image src={'/assets/libro.png'} alt='Libro de reclamaciones' width={40} height={40} className='h-8'/>
-                <div className='w-28 flex place-content-center'>
-                    <p className='text-center leading-4'>
-                        Libro de reclamaciones
-                    </p>
-                </div>
-            </section>
+            <Link
+                href="/politica-de-privacidad"
+                className="text-white font-century-gothic text-sm border border-white/40 rounded-lg px-4 py-2 hover:bg-white hover:text-brown-v1 transition-colors"
+            >
+                Política de privacidad y cookies
+            </Link>
         </div>
     </footer>
   )
