@@ -4,6 +4,7 @@ import "./globals.css";
 import WhIcon from "../components/WhIcon"
 import NavMobil from "../components/NavMobil";
 import PromoPopup from "@/components/PromoPopUp";
+import MetaPixel from "@/components/MetaPixel";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -47,6 +48,7 @@ export default function RootLayout({
         <NavMobil />
         {children}
         <WhIcon />
+        <MetaPixel/>
       </body>
     </html>
   );
