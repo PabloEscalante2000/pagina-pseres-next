@@ -39,6 +39,30 @@ const programa = [
   },
 ];
 
+const avales = [
+  {
+    imagen: "/assets/aval2.jpeg",
+    alt: "Instituto Raimon Gaja IRG España",
+    nombre: "Instituto Raimon Gaja (IRG) – España",
+    descripcion:
+      "Institución europea con más de 40 años de trayectoria en la formación clínica y académica de profesionales en psicología y psicoterapia. Su respaldo garantiza estándares rigurosos de calidad, actualización científica y excelencia en la formación especializada.",
+  },
+  {
+    imagen: "/assets/aval1.png",
+    alt: "IAOTH International Association of Therapists",
+    nombre: "IAOTH – International Association of Therapists",
+    descripcion:
+      "Red internacional que acredita y conecta a profesionales del bienestar en más de 80 países. Su aval certifica una formación alineada a estándares globales, promoviendo el desarrollo profesional, la ética y la proyección internacional de sus participantes.",
+  },
+  {
+    imagen: "/assets/aval3.jpg",
+    alt: "European Association of Applied Psychology EAAP",
+    nombre: "European Association of Applied Psychology (EAAP)",
+    descripcion:
+      "Organización europea dedicada a impulsar una psicología aplicada, práctica y accesible. Su respaldo reconoce programas que integran conocimiento científico con impacto real en la vida cotidiana, fortaleciendo la intervención profesional en contextos educativos y clínicos.",
+  },
+];
+
 const publico = [
   {
     icono: "👩‍🏫",
@@ -234,6 +258,45 @@ export default function MasAllaDelDiagnosticoPage() {
               acompañan a niños y adolescentes neurodivergentes.
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* NOS AVALAN */}
+      <section className="bg-white-v1 py-16 sm:px-24 px-8">
+        <h2 className="text-green-v1 font-quirk sm:text-6xl text-4xl text-center mb-4">
+          NOS AVALAN
+        </h2>
+        <p className="text-green-v1 font-century-gothic sm:text-lg text-base text-center mb-14 max-w-3xl mx-auto leading-8">
+          Este seminario cuenta con el respaldo de organismos internacionales de reconocida trayectoria en psicología y psicoterapia.
+        </p>
+        <div className="max-w-5xl mx-auto grid sm:grid-cols-3 grid-cols-1 gap-8">
+          {avales.map((aval, index) => (
+            <div key={index} className="bg-white rounded-2xl p-6 flex flex-col items-center gap-5">
+              <div className="w-36 h-36 flex items-center justify-center">
+                <Image
+                  src={aval.imagen}
+                  alt={aval.alt}
+                  width={144}
+                  height={144}
+                  className="object-contain w-full h-full"
+                />
+              </div>
+              <h3 className="text-green-v1 font-century-gothic font-bold sm:text-base text-sm text-center uppercase leading-snug">
+                {aval.nombre}
+              </h3>
+              <p className="text-green-v1 font-century-gothic sm:text-base text-sm text-center leading-7">
+                {aval.descripcion}
+              </p>
+            </div>
+          ))}
+        </div>
+        <div className="max-w-3xl mx-auto mt-14 bg-green-v1 rounded-2xl p-8 flex flex-col gap-4">
+          <h3 className="text-brown-v2 font-quirk sm:text-3xl text-2xl text-center">
+            QUÉ SIGNIFICA PARA TI
+          </h3>
+          <p className="text-white-v1 font-century-gothic sm:text-lg text-base text-center leading-8">
+            Que recibirás una formación respaldada internacionalmente, con estándares de calidad reconocidos, aplicable tanto en el aula, en casa o en la práctica profesional.
+          </p>
         </div>
       </section>
 
