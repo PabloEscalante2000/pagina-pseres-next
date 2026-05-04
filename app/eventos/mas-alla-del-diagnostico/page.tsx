@@ -263,8 +263,8 @@ export default function MasAllaDelDiagnosticoPage() {
 
       {/* NOS AVALAN */}
       <section className="bg-white-v1 py-16 sm:px-24 px-8">
-        <h2 className="text-green-v1 font-quirk sm:text-6xl text-4xl text-center mb-4">
-          NOS AVALAN
+        <h2 className="text-green-v1 font-quirk sm:text-6xl text-4xl text-center mb-4 uppercase">
+          Formación con reconocimiento internacional
         </h2>
         <p className="text-green-v1 font-century-gothic sm:text-lg text-base text-center mb-14 max-w-3xl mx-auto leading-8">
           Este seminario cuenta con el respaldo de organismos internacionales de reconocida trayectoria en psicología y psicoterapia.
