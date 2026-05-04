@@ -46,6 +46,9 @@ const avales = [
     nombre: "Instituto Raimon Gaja (IRG) – España",
     descripcion:
       "Institución europea con más de 40 años de trayectoria en la formación clínica y académica de profesionales en psicología y psicoterapia. Su respaldo garantiza estándares rigurosos de calidad, actualización científica y excelencia en la formación especializada.",
+    bandera: "https://flagcdn.com/w40/es.png",
+    banderaAlt: "Bandera de España",
+    enlace: "https://institutoraimongaja.com/",
   },
   {
     imagen: "/assets/aval1.png",
@@ -53,6 +56,9 @@ const avales = [
     nombre: "IAOTH – International Association of Therapists",
     descripcion:
       "Red internacional que acredita y conecta a profesionales del bienestar en más de 80 países. Su aval certifica una formación alineada a estándares globales, promoviendo el desarrollo profesional, la ética y la proyección internacional de sus participantes.",
+    bandera: "https://flagcdn.com/w40/us.png",
+    banderaAlt: "Bandera de Estados Unidos",
+    enlace: "https://iaoth.com/",
   },
   {
     imagen: "/assets/aval3.jpg",
@@ -60,6 +66,9 @@ const avales = [
     nombre: "European Association of Applied Psychology (EAAP)",
     descripcion:
       "Organización europea dedicada a impulsar una psicología aplicada, práctica y accesible. Su respaldo reconoce programas que integran conocimiento científico con impacto real en la vida cotidiana, fortaleciendo la intervención profesional en contextos educativos y clínicos.",
+    bandera: "https://flagcdn.com/w40/gb.png",
+    banderaAlt: "Bandera de Reino Unido",
+    enlace: "https://eaap-eu.com/",
   },
 ];
 
@@ -149,7 +158,7 @@ export default function MasAllaDelDiagnosticoPage() {
               alt="Seminario Más allá del diagnóstico"
               width={384}
               height={480}
-              className="rounded-2xl object-cover w-full aspect-[4/5]"
+              className="rounded-2xl object-cover w-full aspect-4/5"
             />
           </div>
         </div>
@@ -178,7 +187,7 @@ export default function MasAllaDelDiagnosticoPage() {
                   alt={sesion.alt}
                   width={320}
                   height={360}
-                  className="rounded-2xl object-cover w-full aspect-[4/5]"
+                  className="rounded-2xl object-cover w-full aspect-4/5"
                 />
               </div>
               <div className="flex-1 flex flex-col gap-3">
@@ -239,7 +248,7 @@ export default function MasAllaDelDiagnosticoPage() {
               alt="César Andrés Escalante Sifuentes"
               width={384}
               height={480}
-              className="rounded-2xl object-cover w-full aspect-[3/4]"
+              className="rounded-2xl object-cover w-full aspect-3/4"
             />
           </div>
           <div className="flex flex-col gap-5">
@@ -287,6 +296,16 @@ export default function MasAllaDelDiagnosticoPage() {
               <p className="text-green-v1 font-century-gothic sm:text-base text-sm text-center leading-7">
                 {aval.descripcion}
               </p>
+              <a
+                href={aval.enlace}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-auto bg-green-v1 text-white-v1 font-century-gothic font-semibold text-sm px-5 py-2 rounded-xl hover:bg-green-v2 transition-colors flex items-center gap-2"
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={aval.bandera} alt={aval.banderaAlt} width={20} height={14} className="rounded-sm" />
+                Ir al enlace
+              </a>
             </div>
           ))}
         </div>
