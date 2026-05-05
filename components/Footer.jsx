@@ -16,7 +16,7 @@ export default function Footer() {
                 </p>
                 <p className=''>
                     <FontAwesomeIcon icon={faLocationDot}/>{" "}
-                    Pasaje El Pacayar 149, La Aurora - Miraflores
+                    General Silva 570 - Miraflores
                 </p>
             </div>
             <div className='space-y-2 flex flex-col justify-end'>
