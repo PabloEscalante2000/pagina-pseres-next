@@ -6,9 +6,16 @@ import Footer from "@/components/Footer";
 
 // Gestión de metadatos nativa de Next.js para un mejor SEO
 export const metadata: Metadata = {
-  title: "Criando PSERES: Programa para padres y tutores",
-  description:
-    "Programa para padres y tutores. Entrenamiento para padres y profesores de niños con trastornos del neurodesarrollo y psicoterapia familiar.",
+  title: "Criando PSERES: Entrenamiento para Padres de Niños con TEA y TDAH en Lima",
+  description: "Programa de entrenamiento para padres y profesores de niños con trastornos del neurodesarrollo en Lima. Psicoterapia familiar y estrategias de manejo conductual. PSERES, Miraflores.",
+  openGraph: {
+    title: "Criando PSERES: Entrenamiento para Padres de Niños con TEA y TDAH",
+    description: "Programa de entrenamiento para padres y profesores de niños con trastornos del neurodesarrollo en Lima. Psicoterapia familiar y estrategias de manejo conductual.",
+    url: "https://pseres.pe/servicios/criando-pseres/",
+    siteName: "PSERES",
+    locale: "es_PE",
+    type: "website",
+  },
 };
 
 export default function CriandoPseres() {

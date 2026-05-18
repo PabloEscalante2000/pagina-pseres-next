@@ -5,8 +5,16 @@ import ClinicaServicios from "@/components/ClinicaServicios";
 
 // Metadatos para SEO, ideal para Componentes de Servidor
 export const metadata: Metadata = {
-  title: "Clínica de PSERES: Terapias para cada niño",
-  description: "Descubre nuestras terapias personalizadas en la Clínica de PSERES, diseñadas para el bienestar y desarrollo de cada niño.",
+  title: "Clínica de PSERES: Psicoterapia para Niños con TEA, TDAH y Neurodiversidad en Lima",
+  description: "Psicoterapia personalizada para niños en Lima, Miraflores. Programa de tutora sombra para TEA y TDAH, terapias cognitivas, psicoanalíticas y neurocognitivas. Equipo especializado en neurodiversidad infantil.",
+  openGraph: {
+    title: "Clínica de PSERES: Psicoterapia para Niños con TEA, TDAH y Neurodiversidad",
+    description: "Psicoterapia personalizada para niños en Lima, Miraflores. Programa de tutora sombra para TEA y TDAH, terapias cognitivas, psicoanalíticas y neurocognitivas. Equipo especializado en neurodiversidad infantil.",
+    url: "https://pseres.pe/servicios/clinica-de-pseres/",
+    siteName: "PSERES",
+    locale: "es_PE",
+    type: "website",
+  },
 };
 
 export default function ClinicaPseresPage() {

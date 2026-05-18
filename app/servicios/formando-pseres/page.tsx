@@ -4,9 +4,16 @@ import Footer from "@/components/Footer";
 import FormandoPseresContent from "@/components/FormandoPseresContent";
 
 export const metadata: Metadata = {
-  title: "Formando PSERES: Programa de Progreso Integral",
-  description:
-    "Descubre nuestro programa de progreso integral 'Formando PSERES', con tutoría académica, orientación vocacional y terapias para desarrollar estrategias de aprendizaje.",
+  title: "Formando PSERES: Tutoría y Refuerzo Escolar para Niños en Lima",
+  description: "Programa integral de tutoría académica, orientación vocacional y estrategias de aprendizaje para niños en Lima. Especializado en niños neurodiversos con TEA y TDAH. Agenda en PSERES, Miraflores.",
+  openGraph: {
+    title: "Formando PSERES: Tutoría y Refuerzo Escolar para Niños en Lima",
+    description: "Programa integral de tutoría académica, orientación vocacional y estrategias de aprendizaje para niños en Lima. Especializado en niños neurodiversos con TEA y TDAH.",
+    url: "https://pseres.pe/servicios/formando-pseres/",
+    siteName: "PSERES",
+    locale: "es_PE",
+    type: "website",
+  },
 };
 
 export default function FormandoPseresPage() {

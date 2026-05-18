@@ -4,9 +4,16 @@ import Footer from "@/components/Footer";
 import TalleresContent from "@/components/TalleresContent";
 
 export const metadata: Metadata = {
-  title: "PSERES Reflexiona: Talleres para Colegios e Instituciones",
-  description:
-    "Ofrecemos talleres y capacitaciones para colegios e instituciones, fomentando una comunidad educativa consciente y preparada en temas de crianza y educación.",
+  title: "PSERES Reflexiona: Talleres de Neurodiversidad para Colegios en Lima",
+  description: "Talleres y capacitaciones sobre neurodiversidad, TEA, TDAH, crianza y educación para colegios e instituciones en Lima. Formación para docentes y comunidades educativas. PSERES, Miraflores.",
+  openGraph: {
+    title: "PSERES Reflexiona: Talleres de Neurodiversidad para Colegios en Lima",
+    description: "Talleres y capacitaciones sobre neurodiversidad, TEA, TDAH, crianza y educación para colegios e instituciones en Lima. Formación para docentes y comunidades educativas.",
+    url: "https://pseres.pe/servicios/talleres-para-reflexionar-pseres/",
+    siteName: "PSERES",
+    locale: "es_PE",
+    type: "website",
+  },
 };
 
 export default function TalleresPseresPage() {

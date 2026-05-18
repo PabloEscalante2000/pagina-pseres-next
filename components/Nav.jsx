@@ -99,11 +99,6 @@ export default function Nav() {
                         ))}
                     </ul>
                 </li>
-                <li>
-                    <Link href={"/"} className={pathname === "/blog" ? "underline" : ""}>
-                        BLOG
-                    </Link>
-                </li>
                 <li className="border border-white rounded-lg p-1">
                     <a
                         href="https://api.whatsapp.com/send?phone=51966968791&text=Buenos%20d%C3%ADas,%20quisiera%20saber%20m%C3%A1s%20sobre%20sus%20servicios"

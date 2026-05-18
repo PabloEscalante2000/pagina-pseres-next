@@ -18,5 +18,13 @@
     {
         "titulo":"Talleres para reflexionar",
         "path":"/servicios/talleres-para-reflexionar-pseres"
+    },
+    {
+        "titulo":"Evaluaciones Especializadas",
+        "path":"/servicios/evaluaciones-especializadas"
+    },
+    {
+        "titulo":"Tutora Sombra",
+        "path":"/servicios/tutora-sombra-lima"
     }
 ]

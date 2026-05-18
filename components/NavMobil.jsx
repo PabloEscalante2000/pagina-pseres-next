@@ -121,12 +121,6 @@ export default function NavMobil() {
             }}>
                 <p className='text-[20px] w-full border border-b-white-v1 border-b border-x-0 border-t-0 pb-3'>NOSOTROS</p>
             </ListItemButton>
-            <ListItemButton onClick={() => {
-                router.push("/blog")
-                setModal(false)
-            }}>
-                <p className='text-[20px] w-full border border-b-white-v1 border-b border-x-0 border-t-0 pb-3'>BLOG</p>
-            </ListItemButton>
         </List>
     </nav>
   )

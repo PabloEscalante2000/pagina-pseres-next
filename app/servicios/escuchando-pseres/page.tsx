@@ -6,9 +6,16 @@ import Footer from "@/components/Footer";
 
 // Gestión de metadatos nativa de Next.js para un mejor SEO
 export const metadata: Metadata = {
-  title: "Escuchando PSERES: Servicios de Bienestar Emocional",
-  description:
-    "La psicoterapia emocional para niños es una intervención lúdica y dinámica que tiene como finalidad potenciar el bienestar emocional, social y conductual del niño en su entorno. Es una intervención terapéutica beneficiosa para aquellos que presentan dificultades con sus emociones y problemas de comportamiento.",
+  title: "Escuchando PSERES: Terapia Emocional y Conductual para Niños en Lima",
+  description: "Psicoterapia emocional y conductual para niños en Lima. Tratamiento de depresión, ansiedad, impulsividad y problemas de conducta. Intervención lúdica y dinámica con enfoque psicoanalítico. PSERES, Miraflores.",
+  openGraph: {
+    title: "Escuchando PSERES: Terapia Emocional y Conductual para Niños en Lima",
+    description: "Psicoterapia emocional y conductual para niños en Lima. Tratamiento de depresión, ansiedad, impulsividad y problemas de conducta. Intervención lúdica y dinámica.",
+    url: "https://pseres.pe/servicios/escuchando-pseres/",
+    siteName: "PSERES",
+    locale: "es_PE",
+    type: "website",
+  },
 };
 
 export default function EscuchandoPseres() {

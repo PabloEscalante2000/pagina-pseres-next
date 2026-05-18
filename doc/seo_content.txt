@@ -1,0 +1,398 @@
+﻿Pages: 12
+=== PAGINA 1 ===
+52
+/ 100
+SEO Score general
+Auditoría SEO
+pseres.pe
+Centro de Psicoterapia y Psicoeducación Infantil — Lima, Perú
+Generado: 18 de May de 2026
+
+
+=== PAGINA 2 ===
+Resumen ejecutivo
+El sitio pseres.pe obtiene una puntuación SEO general de 52/100, la más baja del Grupo EADES. A
+diferencia de eadespsicoterapia.com, PSERES enfrenta problemas más profundos: el title tag de la
+homepage es solo 'PSERES' sin ninguna keyword descriptiva, todas las páginas de servicio comparten
+el mismo og:description genérico, no existe schema markup, el blog redirige a la homepage confundiendo
+crawlers, y las páginas de servicio tienen contenido muy escaso. Sin embargo, la propuesta de valor es muy
+diferenciada — el concepto de 'psicoeducación', el programa de tutora sombra para TEA/TDAH, y las
+evaluaciones express son activos únicos en el mercado limeño que, con mejor SEO técnico y de contenido,
+tienen alto potencial de posicionamiento.
+Puntuación por categoría
+Técnico (title, meta tags, og, estructura)
+38/100
+On-page (H1, URLs, contenido de páginas)
+45/100
+Contenido (profundidad, blog, keywords)
+40/100
+E-E-A-T (autoridad, equipo, confianza)
+72/100
+Schema / datos estructurados
+10/100
+Local SEO (Maps, NAP, reseñas)
+50/100
+Estado de elementos clave
+Title homepage
+✗ Sin
+keywords
+Meta description
+■ Genérica
+HTTPS
+✓ OK
+og:url
+✓ OK
+Schema markup
+✗ Ausente
+Blog funcional
+✗ Roto
+Páginas servicio
+■ Thin
+content
+Equipo COP
+✓ Visible
+
+
+=== PAGINA 3 ===
+1. SEO Técnico
+PRIORIDAD ALTA
+Title tag de la homepage: solo 'PSERES' — sin keywords ni descripción
+El título de la página principal es literalmente 'PSERES' y nada más. Este es el error más grave del sitio: el
+title tag es el factor on-page más importante para el ranking en Google y también es lo que aparece en la
+pestaña del navegador y en los resultados de búsqueda. Un título sin keywords descriptivas significa que
+Google no tiene señal textual clara sobre de qué trata el sitio. Comparación: 'PSERES' vs el ideal
+'PSERES | Psicología infantil y psicoeducación en Lima — TEA, TDAH, niños'.
+Recomendación: Actualizar el title tag de la homepage a algo como: 'PSERES — Psicoterapia y
+psicoeducación para niños en Lima | TEA, TDAH y neurodiversidad'. Máximo 60 caracteres. Asegurarse que
+cada página interna tenga su propio title único y descriptivo.
+PRIORIDAD ALTA
+Todas las páginas comparten el mismo og:description genérico
+La meta description y el og:description de TODAS las páginas del sitio — homepage, clínica,
+evaluaciones, formando pseres — son idénticos: el texto genérico de 'Pseres es un centro de psicoterapia
+y psicoeducación...'. Esto afecta directamente el CTR en búsquedas y redes sociales, ya que cuando
+alguien comparte /servicios/evaluaciones-especializadas/ en WhatsApp, el preview muestra el texto de la
+homepage en lugar del contenido específico.
+Recomendación: Asignar meta description y og:description únicos por página. Por ejemplo, la página de
+evaluaciones debería tener: 'Evaluaciones psicológicas express para niños en Lima: aprendizaje, cognitiva,
+TDAH/TEA y orientación vocacional. Resultados ágiles con informe profesional.' Esto aplica a cada página
+de servicio y al blog.
+PRIORIDAD ALTA
+El enlace 'BLOG' en la navegación apunta a la homepage (pseres.pe/)
+El ítem 'BLOG' en el menú de navegación tiene href='https://pseres.pe/' — es decir, hace link a la misma
+homepage. Esto es un problema serio: los crawlers de Google pueden interpretar que no hay blog, hay
+duplicación de contenido entre '/' y la 'sección blog', y los usuarios que hacen clic en 'BLOG' son devueltos
+al inicio sin feedback. Además el menú tiene dos variantes HTML que muestran discordancias entre el nav
+desktop y mobile.
+Recomendación: Crear una URL real para el blog en /blog/ con sus artículos listados, o redirigir el enlace
+BLOG a la sección de artículos si existen en otra URL. Si el blog aún no tiene contenido, eliminar
+temporalmente el ítem del menú para evitar confusión de crawlers y usuarios.
+
+
+=== PAGINA 4 ===
+PRIORIDAD ALTA
+Sin schema markup en ninguna página
+Al igual que eadespsicoterapia.com, pseres.pe no tiene JSON-LD implementado. Para un centro de salud
+infantil esto es especialmente importante: el schema ChildrensHospital/MedicalOrganization, los schemas
+de Person para cada profesional (con su número COP), y el schema FAQPage para las preguntas
+frecuentes de la homepage pueden marcar la diferencia en los rich snippets de Google para búsquedas de
+'psicólogo niños Lima', 'evaluación TDAH Lima', 'terapia TEA Miraflores'.
+Recomendación: Implementar JSON-LD: (1) MedicalOrganization con nombre, dirección, teléfono,
+especialidad pediátrica. (2) Person para cada miembro del equipo con CPsP visible. (3) FAQPage para las 6
+preguntas frecuentes que aparecen en la homepage. Validar con Google Rich Results Test tras la
+implementación.
+PRIORIDAD MEDIA
+Meta keywords obsoletos y demasiado genéricos
+El meta keywords de todas las páginas es 'psicología,terapia,blog,educación,psicoeducación' — términos
+extremadamente genéricos que no incluyen las keywords específicas del negocio (TEA, TDAH,
+neurodiversidad, Lima, Miraflores, niños). Aunque Google ignora este tag, su presencia genérica en todas
+las páginas sin diferenciación refuerza el diagnóstico de que el SEO on-page no está individualizado por
+página.
+Recomendación: Eliminar el meta keywords de todas las páginas. El trabajo de keywords debe hacerse en
+el contenido real, los títulos y las meta descriptions.
+PRIORIDAD MEDIA
+Sitemap.xml y robots.txt sin confirmación
+No fue posible verificar /sitemap.xml ni /robots.txt. Para un sitio Next.js con múltiples páginas de servicio,
+un sitemap bien estructurado es esencial para que Google indexe correctamente todas las URLs,
+especialmente las páginas de evaluaciones que tienen mayor profundidad y potencial para rankear.
+Recomendación: Verificar existencia de ambos archivos. Generar sitemap con next-sitemap si no existe.
+Enviarlo a Google Search Console y a Bing Webmaster Tools.
+
+
+=== PAGINA 5 ===
+2. SEO On-Page
+PRIORIDAD ALTA
+H1 de la homepage no contiene ninguna keyword de negocio
+El H1 actual es: 'Acompañamiento integral para cada PSER'. Es un tagline de marca creativo pero sin
+ningún valor SEO: no incluye 'Lima', 'niños', 'psicología', 'TEA', 'TDAH' ni ningún término que los padres
+usarían para buscar este servicio. Google asigna alto peso al H1 para determinar el tema central de la
+página.
+Recomendación: Reescribir el H1 combinando identidad de marca con keyword. Ejemplo: 'Psicoterapia y
+psicoeducación para niños en Lima — acompañamiento integral para cada PSER'. O usar el H1 para la
+keyword principal y el H2 para el tagline de marca.
+PRIORIDAD ALTA
+Páginas de servicio con thin content — Clínica PSERES como caso crítico
+La página /servicios/clinica-de-pseres/ lista los servicios en 7 bullets cortos sin descripción clínica,
+metodología, casos de uso ni información para padres. No responde preguntas básicas como: '¿Qué
+esperar en la primera sesión?', '¿Cómo se diferencia la terapia para TEA de la terapia para TDAH?',
+'¿Cuántas sesiones necesita mi hijo generalmente?'. Google valora el contenido que genuinamente
+responde la intención de búsqueda; páginas de 100 palabras rara vez rankean.
+Recomendación: Expandir cada página de servicio a mínimo 400-600 palabras. Para Clínica PSERES:
+explicar el proceso terapéutico, qué ocurre en la primera evaluación, cómo se diseña el plan personalizado,
+qué es el programa de tutora sombra y para quién aplica, y un bloque FAQ específico del servicio.
+PRIORIDAD ALTA
+Página de evaluaciones especializadas sin precios visibles (solo 'Ver detalles y
+precios')
+La página /servicios/evaluaciones-especializadas/ lista 6 tipos de evaluación con excelente estructura pero
+redirige a 'Ver detalles y precios' sin mostrar la información. Los padres que buscan 'evaluación TDAH
+Lima precio' o 'evaluación TEA costo' necesitan esta información para tomar una decisión. La fricción de
+no mostrar el precio puede aumentar el abandono y reducir las conversiones desde búsqueda orgánica.
+Recomendación: Mostrar rangos de precio directamente en la página de evaluaciones. Si hay resistencia a
+publicar precios exactos, al menos indicar rango ('Desde S/ XXX'). Esto también puede capturar long-tail
+como 'evaluación cognitiva niños Lima precio'.
+PRIORIDAD MEDIA
+og:title genérico 'PSERES' en todas las páginas internas
+El og:title de todas las páginas internas es 'PSERES', igual al de la homepage. Cuando un padre comparte
+en WhatsApp la página de 'Formando PSERES' o de 'Criando PSERES', el preview solo muestra
+'PSERES' como título, sin contexto del contenido específico. Esto reduce el click-through en compartidos
+sociales.
+Recomendación: Configurar og:title único por página que incluya el nombre del servicio y la marca.
+Ejemplo para evaluaciones: 'Evaluaciones Psicológicas Express para Niños | PSERES Lima'.
+
+
+=== PAGINA 6 ===
+PRIORIDAD MEDIA
+Equipo profesional: Melissa Huamán y Valeria Arbulú sin número COP
+César Escalante (CPsP: 29611), Kevin Cubas (CPsP: 66725) y Catherin Cermeño (CPsP: 35863) tienen
+su número de colegiatura visible — excelente para E-E-A-T. Sin embargo, Melissa Huamán, Natalia
+Escalante y Valeria Arbulú no tienen número COP o equivalente. Para Google, en sitios YMYL de salud
+infantil, la verificabilidad de todos los profesionales es un factor de confianza.
+Recomendación: Agregar número COP o credencial equivalente para todos los miembros del equipo. Si
+algún profesional no está colegiado aún, explicar su rol y supervisión clínica (por ejemplo, 'Facilitador bajo
+supervisión del CPsP: 29611').
+
+
+=== PAGINA 7 ===
+3. Contenido y E-E-A-T
+PRIORIDAD ALTA
+Sin ningún artículo de blog publicado — oportunidad crítica desperdiciada
+El sitio no tiene blog activo. Para un centro especializado en TEA, TDAH y neurodiversidad infantil, el blog
+es el canal de SEO de mayor potencial: los padres buscan activamente información sobre '¿cómo sé si mi
+hijo tiene TDAH?', 'señales de autismo en niños de 3 años', 'cómo ayudar a un niño con TEA en el colegio'.
+Estos son términos de búsqueda informacional con altísimo volumen y baja competencia de contenido de
+calidad en español para Perú. PSERES podría posicionarse como la referencia de contenido sobre
+neurodiversidad infantil en Lima.
+Recomendación: Lanzar blog con al menos 4 artículos iniciales en temas de alta demanda: (1) '¿Qué es la
+neurodiversidad y por qué es importante entenderla?', (2) 'TDAH en niños: señales de alerta y cuándo
+buscar evaluación', (3) 'TEA en edad escolar: cómo el colegio puede apoyar a tu hijo', (4) '¿Qué es una
+evaluación cognitiva express y para qué sirve?'. Ritmo mínimo: 1-2 artículos por mes.
+PRIORIDAD ALTA
+El concepto de 'tutora sombra' no tiene página propia ni contenido explicativo
+El programa de 'tutora sombra' para niños con TEA y TDAH es uno de los servicios más únicos y
+diferenciados de PSERES en el mercado limeño — y probablemente el de mayor demanda latente. Sin
+embargo, solo aparece mencionado en un bullet de la página de Clínica PSERES sin ninguna explicación
+adicional. Los padres que buscan 'tutora sombra Lima', 'sombra escolar TEA Lima' o 'apoyo conductual
+niños Lima' no encuentran PSERES.
+Recomendación: Crear una página dedicada: /servicios/tutora-sombra-lima/ con 600+ palabras. Explicar:
+qué es una tutora sombra, en qué contextos aplica (escolar, terapéutico), cómo PSERES selecciona y
+capacita a sus tutoras, qué incluye el programa, y testimonios (anonimizados) de familias. Esta página sola
+puede generar tráfico orgánico significativo al no tener competidores con contenido dedicado.
+PRIORIDAD ALTA
+Las preguntas frecuentes de la homepage no tienen respuestas visibles
+La sección 'Resolviendo tus dudas' lista 6 preguntas (primera sesión, costo, enfoque, participación de
+padres, frecuencia, menores de edad) pero cada una solo muestra 'Más información' como CTA —
+probablemente abriendo un modal o accordion con JS. Si estas respuestas están ocultas en JavaScript,
+Google puede no indexarlas, perdiendo la oportunidad de rankear para queries conversacionales y de
+aparecer en rich snippets de FAQ.
+Recomendación: Asegurarse que las respuestas a las preguntas frecuentes sean accesibles en el HTML
+estático (no solo en JS). Implementar schema FAQPage con las 6 preguntas y sus respuestas. Verificar con
+Google Rich Results Test que las respuestas se detectan correctamente.
+
+
+=== PAGINA 8 ===
+PRIORIDAD MEDIA
+El 'Modelo PSERES' no tiene página propia con contenido indexable
+La sección 'Nuestro Modelo' en el menú existe como enlace pero el contenido del modelo (enfoque
+multidimensional, programas personalizados, pensamiento crítico, intervención en crisis) solo aparece
+brevemente en la homepage sin una URL dedicada que pueda rankear para términos como
+'psicoeducación niños Lima' o 'enfoque psicoanalítico niños Lima'.
+Recomendación: Crear /nuestro-modelo/ como página standalone con 400-500 palabras explicando el
+marco teórico de PSERES, por qué integra psicoterapia y psicoeducación, y cómo esto beneficia al niño en
+su contexto familiar y escolar.
+PRIORIDAD BAJA
+Sin testimonios ni reseñas de familias en el sitio
+PSERES no muestra testimonios de padres ni reseñas estructuradas. En servicios de salud mental
+infantil, donde los padres depositan la confianza en profesionales para el bienestar de sus hijos, la prueba
+social es decisiva para la conversión y para las señales de E-E-A-T.
+Recomendación: Agregar sección de testimonios de padres (anonimizados o con consentimiento). Integrar
+widget de reseñas de Google Business. Implementar schema AggregateRating para habilitar las estrellas en
+los resultados de búsqueda.
+
+
+=== PAGINA 9 ===
+4. Quick Wins — Acciones Inmediatas
+Ordenadas por impacto SEO / esfuerzo de implementación. Las primeras 4 se pueden resolver en menos de
+2 horas de trabajo técnico.
+#
+Acción
+Tiempo est.
+Por qué importa
+1
+Actualizar title tag de la
+homepage
+~10 min
+El cambio más impactante del sitio. De 'PSERES' a un
+title con keywords reales.
+2
+Corregir el enlace BLOG en el
+menú (apunta a homepage)
+~5 min
+Eliminar o corregir href del ítem BLOG para no
+confundir crawlers y usuarios.
+3
+Agregar meta descriptions
+únicas por página
+~1 h
+Actualmente todas son idénticas. Descriptions únicas
+mejoran CTR en SERP y compartidos sociales.
+4
+Implementar JSON-LD
+MedicalOrganization + FAQPage
+~3 h
+Sin schema es invisible para rich snippets. FAQPage
+puede dar el doble de espacio visual en Google.
+5
+Agregar og:title único por página
+de servicio
+~30 min
+Fix rápido en Next.js. Mejora compartidos en
+WhatsApp y redes sociales.
+6
+Crear página dedicada
+/servicios/tutora-sombra-lima/
+~4 h
+Servicio único sin competencia de contenido en Lima.
+Alto potencial de tráfico orgánico específico.
+7
+Publicar primer artículo de blog:
+'Señales de TDAH en niños'
+~3 h
+Highest-demand topic en el nicho. Sin blog activo,
+PSERES es invisible en búsquedas informacionales.
+8
+Agregar números COP a Melissa,
+Natalia y Valeria
+~10 min
+Completa las señales de E-E-A-T para todos los
+profesionales del equipo.
+
+
+=== PAGINA 10 ===
+5. Contexto Competitivo — Nicho Infantil en Lima
+El nicho de psicología infantil y neurodiversidad (TEA/TDAH) en Lima tiene menos competencia de
+contenido que el de psicología adultos — lo que representa una oportunidad real para PSERES de
+posicionarse como referencia si actúa ahora.
+Competidor / canal
+Fortaleza actual
+Oportunidad para PSERES
+psicologomiraflores.pe
+Artículos de blog sobre terapia
+para niños con buen SEO técnico
+PSERES tiene especialización
+más profunda en neurodiversidad
+Psychology Today (directorio)
+Alta visibilidad individual
+para psicólogos en Lima
+Crear perfil de PSERES como
+organización + perfiles individuales
+Doctoralia.pe (directorio)
+Reseñas verificadas, alta DA,
+posiciona en Google Maps
+Reclamar ficha PSERES con fotos,
+servicios y reseñas de padres
+Clínicas privadas Lima
+(sin especialización TEA/TDAH)
+Marca establecida y presupuesto
+publicitario mayor
+PSERES tiene diferenciación única:
+tutora sombra + psicoeducación
+Contenido orgánico
+(búsquedas informacionales)
+Pocos sitios peruanos con
+contenido de calidad sobre TEA/TDAH
+PSERES puede dominar este
+nicho con 6-8 artículos de blog
+Oportunidad clave: Las búsquedas relacionadas con 'tutora sombra Lima', 'evaluación TEA niños Lima
+precio' y 'psicoeducación Lima' tienen demanda real pero prácticamente ningún sitio peruano tiene contenido
+dedicado y de calidad para ellas. PSERES puede capturar ese tráfico con inversión relativamente baja en
+contenido.
+
+
+=== PAGINA 11 ===
+6. Plan de Acción Priorizado
+Fase 1 — Semana 1 (Correcciones críticas técnicas)
+→ Actualizar title tag: homepage y todas las páginas de servicio con keywords reales
+→ Corregir el enlace BLOG en el menú de navegación (no debe apuntar a /)
+→ Asignar meta description y og:description únicos por cada página
+→ Asignar og:title único por cada página interna
+→ Agregar CPsP/credenciales a Melissa Huamán, Natalia Escalante y Valeria Arbulú
+→ Eliminar meta keywords genérico de todas las páginas
+Fase 2 — Semana 2-4 (Schema y contenido mínimo)
+→ Implementar JSON-LD: MedicalOrganization, Person (x6 profesionales), FAQPage
+→ Verificar que las respuestas FAQ sean accesibles en HTML estático (no solo JS)
+→ Crear /servicios/tutora-sombra-lima/ con 600+ palabras de contenido
+→ Expandir /servicios/clinica-de-pseres/ con metodología y proceso detallado
+→ Mostrar precios o rangos de precio en página de evaluaciones especializadas
+→ Crear /nuestro-modelo/ como página standalone con marco teórico de PSERES
+Fase 3 — Mes 2-4 (Blog y autoridad)
+→ Publicar artículo: 'TDAH en niños: señales de alerta y cuándo buscar evaluación'
+→ Publicar artículo: '¿Qué es una tutora sombra y cómo ayuda a niños con TEA?'
+→ Publicar artículo: 'Evaluación cognitiva express: qué mide y cuándo hacerla'
+→ Publicar artículo: 'Neurodiversidad: guía para padres de niños en Lima'
+→ Registrar o reclamar perfil en Doctoralia y Psychology Today como organización
+→ Agregar sección de testimonios de padres (anonimizados) con schema AggregateRating
+→ Configurar y enviar sitemap a Google Search Console y Bing Webmaster Tools
+7. Comparativa: PSERES vs EADES Psicoterapia
+Siendo ambos parte del mismo Grupo EADES, una coordinación SEO entre ambos sitios puede multiplicar la
+autoridad de los dos dominios.
+Factor
+eadespsicoterapia.com
+pseres.pe
+Score SEO general
+66/100
+52/100
+Title tag homepage
+✓ Descriptivo con keywords
+✗ Solo 'PSERES'
+og:url
+✗ Dominio incorrecto
+✓ Correcto
+Meta descriptions
+✓ Únicas por página
+✗ Todas idénticas
+Schema markup
+✗ Ausente
+✗ Ausente
+Blog activo
+✗ Última entrada 2019
+✗ Sin blog
+
+
+=== PAGINA 12 ===
+Páginas de servicio
+■ Contenido básico
+✗ Thin content
+Equipo con COP visible
+■ Solo fundador
+✓ 3 de 6 profesionales
+Links internos entre sitios
+✓ PSERES mencionado
+✓ EADES mencionado
+Oportunidad de linkbuilding interno: PSERES y EADES se mencionan mutuamente pero los links internos
+podrían ser más estratégicos. Por ejemplo, la página de terapia de pareja de EADES podría linkar a 'Criando
+PSERES' para padres, y PSERES podría linkar a EADES para casos donde el niño requiere atención adulta
+también. Este interlinking distribuye autoridad entre ambos dominios del Grupo EADES.
+Reporte generado el 18/05/2026 mediante auditoría automatizada de pseres.pe. Validar schema con:
+https://search.google.com/test/rich-results. Monitorear progreso en Google Search Console tras implementar las
+correcciones de Fase 1.
+
+

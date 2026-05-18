@@ -1,7 +1,14 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python -c ' *)"
+      "Bash(python -c ' *)",
+      "Bash(python -c \"from pypdf import PdfReader; r = PdfReader\\('C:/Users/grupo/Documents/proy_programacion/react/pagina-pseres-next/doc/seo_audit_pseres.pdf'\\); text = ''; [text.__add__\\(p.extract_text\\(\\) or ''\\) for p in r.pages]; print\\(f'Pages: {len\\(r.pages\\)}'\\); [print\\(f'=== PAGINA {i+1} ===\\\\n{p.extract_text\\(\\)}'\\) for i, p in enumerate\\(r.pages\\)]\")",
+      "Bash(pip install *)",
+      "Bash(Out-File -FilePath \"doc/seo_content.txt\" -Encoding utf8)",
+      "Bash(Get-Content \"doc/seo_content.txt\")",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\grupo\\\\Documents\\\\proy_programacion\\\\react\\\\pagina-pseres-next\" -Recurse -Depth 2)",
+      "Bash(Select-Object FullName)",
+      "Bash(xargs ls -la)"
     ]
   }
 }

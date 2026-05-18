@@ -4,8 +4,16 @@ import Footer from "@/components/Footer";
 import EvaluacionesServicios from "@/components/EvaluacionesServicios";
 
 export const metadata: Metadata = {
-  title: "Evaluaciones Especializadas Rápidas | PSERES",
-  description: "Evalúe el desarrollo y bienestar de su hijo(a) de forma ágil y profesional con nuestras evaluaciones especializadas en PSERES.",
+  title: "Evaluaciones Psicológicas Express para Niños en Lima | PSERES",
+  description: "Evaluaciones psicológicas express para niños en Lima: cognitiva, aprendizaje, TDAH/TEA y orientación vocacional. Resultados ágiles con informe profesional. Agenda tu cita en PSERES, Miraflores.",
+  openGraph: {
+    title: "Evaluaciones Psicológicas Express para Niños en Lima | PSERES",
+    description: "Evaluaciones psicológicas express para niños en Lima: cognitiva, aprendizaje, TDAH/TEA y orientación vocacional. Resultados ágiles con informe profesional.",
+    url: "https://pseres.pe/servicios/evaluaciones-especializadas/",
+    siteName: "PSERES",
+    locale: "es_PE",
+    type: "website",
+  },
 };
 
 export default function EvaluacionesEspecializadasPage() {
