@@ -9,15 +9,15 @@ declare global {
   }
 }
 
-function trackPurchase() {
+function trackWhatsAppClick() {
   if (typeof window !== "undefined" && window.fbq) {
-    window.fbq("track", "Purchase", {
-      value: 190.0,
-      currency: "PEN",
-      content_name: "Más allá del diagnóstico — Paquete Completo",
+    window.fbq("track", "Lead", {
+      content_name: "Más allá del diagnóstico — Inscripción WhatsApp",
       content_ids: ["mad-2026"],
-      content_type: "product",
+      currency: "PEN",
+      value: 150.0,
     });
+    window.fbq("track", "Contact");
   }
 }
 
@@ -180,7 +180,7 @@ function CTAButton({
       href={WHATSAPP_BASE}
       target="_blank"
       rel="noopener noreferrer"
-      onClick={trackPurchase}
+      onClick={trackWhatsAppClick}
       className={
         className ??
         "bg-brown-v1 text-white-v1 font-century-gothic font-bold sm:text-xl text-base px-10 py-4 rounded-xl hover:opacity-90 transition-opacity text-center"
@@ -276,7 +276,8 @@ export default function LandingMasAllaDelDiagnostico() {
               muted
               loop
               playsInline
-              className="w-full h-full object-cover"
+              controls
+              className="w-full object-cover max-h-screen"
             >
               <source src="/assets/videos/v_landing.webm" type="video/webm" />
             </video>
