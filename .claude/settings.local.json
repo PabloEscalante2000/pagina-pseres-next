@@ -8,7 +8,8 @@
       "Bash(Get-Content \"doc/seo_content.txt\")",
       "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\grupo\\\\Documents\\\\proy_programacion\\\\react\\\\pagina-pseres-next\" -Recurse -Depth 2)",
       "Bash(Select-Object FullName)",
-      "Bash(xargs ls -la)"
+      "Bash(xargs ls -la)",
+      "Bash(npx tsc *)"
     ]
   }
 }
