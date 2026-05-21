@@ -107,19 +107,6 @@ const paquetes = [
     cta: "Inscribirme",
   },
   {
-    nombre: "Paquete Virtual",
-    descripcion: "Recomendado como base",
-    precio: "S/ 150",
-    destacado: false,
-    items: [
-      "3 módulos virtuales (6 sesiones)",
-      "Posibilidad de acceder a la pasantía",
-      "Materiales digitales completos",
-      "Certificación virtual internacional",
-    ],
-    cta: "Inscribirme",
-  },
-  {
     nombre: "Virtual + Certificado Físico",
     descripcion: "",
     precio: "S/ 160",
@@ -166,7 +153,7 @@ const avales = [
 ];
 
 const WHATSAPP_BASE =
-  "https://api.whatsapp.com/send?phone=51966968791&text=Hola%2C%20quisiera%20inscribirme%20al%20programa%20M%C3%A1s%20all%C3%A1%20del%20diagn%C3%B3stico";
+  "https://api.whatsapp.com/send?phone=51939491876&text=Hola%2C%20quisiera%20inscribirme%20al%20programa%20M%C3%A1s%20all%C3%A1%20del%20diagn%C3%B3stico";
 
 function CTAButton({
   texto,
@@ -210,85 +197,76 @@ export default function LandingMasAllaDelDiagnostico() {
       </Script>
 
       {/* ── HERO ── */}
-      <section className="bg-green-v1 min-h-screen w-full flex flex-col">
-        {/* Branding top */}
-        <div className="px-6 sm:px-16 pt-8 flex-none">
-          <p className="text-white-v1/60 font-century-gothic text-sm uppercase tracking-widest">
+      <section className="bg-green-v1 min-h-screen w-full flex flex-col lg:flex-row overflow-hidden">
+
+        {/* Columna texto */}
+        <div className="flex-1 flex flex-col justify-between px-6 sm:px-12 pt-10 pb-8 lg:py-14">
+
+          {/* Branding */}
+          <p className="text-white-v1/50 font-century-gothic text-xs uppercase tracking-widest mb-8">
             Pseres · Grupo EADES · ILUMINA
           </p>
-        </div>
 
-        {/* Contenido principal: texto | video */}
-        <div className="flex-1 flex flex-col lg:flex-row items-center gap-10 sm:px-16 px-6 py-10">
-
-          {/* Columna texto */}
-          <div className="flex-1 flex flex-col gap-6">
-            <p className="text-white-v1 font-century-gothic text-sm sm:text-base uppercase tracking-widest">
-              Programa de Formación Especializada Intensiva en Neurociencias Aplicadas al Aula
+          {/* Título + subtítulo */}
+          <div className="flex-1 flex flex-col justify-center gap-4">
+            <p className="text-brown-v2 font-century-gothic text-xs sm:text-sm uppercase tracking-widest">
+              Formación Especializada · Neurociencias Aplicadas al Aula
             </p>
-            <h1 className="text-white-v1 font-quirk text-5xl sm:text-7xl leading-tight">
-              MÁS ALLÁ<br />DEL DIAGNÓSTICO
+            <h1 className="text-white-v1 font-quirk text-7xl sm:text-8xl lg:text-9xl leading-[0.75]">
+              MÁS ALLÁ<br />DEL<br />DIAGNÓSTICO
             </h1>
-            <p className="text-white-v1 font-century-gothic text-xl sm:text-2xl font-semibold">
-              Neurociencias en el Aula
+            <p className="text-white-v1 font-century-gothic text-lg sm:text-xl">
+              Neurociencias en el Aula · Junio – Julio 2026
             </p>
-            <p className="text-white-v1 font-century-gothic text-base sm:text-lg leading-7 max-w-xl">
-              Aprende a comprender y acompañar a estudiantes neurodivergentes con herramientas
-              respaldadas por neurociencia — diseñadas para la realidad educativa peruana.
+            <p className="text-white-v1/80 font-century-gothic text-sm sm:text-base leading-6 max-w-lg">
+              Herramientas neurocientiíficas para comprender y acompañar estudiantes
+              neurodivergentes — diseñadas para la realidad educativa peruana.
             </p>
+          </div>
 
-            {/* Fecha + horario */}
-            <div className="flex flex-wrap gap-3">
-              <span className="bg-brown-v1 text-white-v1 font-century-gothic font-semibold px-4 py-2 rounded-lg text-sm sm:text-base">
-                🗓 Inicio: 23 de junio 2026
+          {/* Info + CTA */}
+          <div className="flex flex-col gap-4 mt-8">
+            <div className="flex flex-wrap gap-2 text-xs font-century-gothic">
+              <span className="bg-brown-v1 text-white-v1 px-3 py-1.5 rounded-md font-semibold">
+                Inicio 23 jun 2026
               </span>
-              <span className="bg-white-v1/15 text-white-v1 font-century-gothic px-4 py-2 rounded-lg text-sm">
-                🕖 Mar y Jue · 7:30 – 9:30 p.m.
+              <span className="border border-white-v1/30 text-white-v1 px-3 py-1.5 rounded-md">
+                Mar y Jue · 7:30 – 9:30 p.m.
               </span>
-              <span className="bg-white-v1/15 text-white-v1 font-century-gothic px-4 py-2 rounded-lg text-sm">
-                💻 Virtual + cierre presencial
+              <span className="border border-white-v1/30 text-white-v1 px-3 py-1.5 rounded-md">
+                Virtual + cierre presencial
               </span>
-              <span className="bg-white-v1/15 text-white-v1 font-century-gothic px-4 py-2 rounded-lg text-sm">
-                18 horas académicas
+              <span className="border border-white-v1/30 text-white-v1 px-3 py-1.5 rounded-md">
+                18 h académicas
               </span>
             </div>
 
-            {/* Precio + CTA */}
-            <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-end">
+            <div className="flex items-center gap-6">
               <div>
-                <p className="text-white-v1 font-century-gothic text-sm">Desde</p>
-                <p className="text-white-v1 font-quirk text-5xl leading-none">S/ 150</p>
-                <p className="text-white-v1 font-century-gothic text-xs mt-1 opacity-70">
-                  Pago en cuotas disponible · Consultar por WhatsApp
-                </p>
+                <p className="text-white-v1/60 font-century-gothic text-xs">Desde</p>
+                <p className="text-white-v1 font-quirk text-4xl leading-none">S/ 150</p>
               </div>
               <CTAButton
                 texto="INSCRÍBETE AHORA"
-                className="bg-brown-v1 text-white-v1 font-century-gothic font-bold text-lg sm:text-xl px-10 py-5 rounded-xl hover:opacity-90 transition-opacity text-center"
+                className="bg-brown-v1 text-white-v1 font-century-gothic font-bold text-base sm:text-lg px-8 py-4 rounded-xl hover:opacity-90 transition-opacity"
               />
             </div>
-          </div>
-
-          {/* Columna video */}
-          <div className="lg:w-[480px] w-full flex-none rounded-2xl overflow-hidden shadow-2xl">
-            <video
-              autoPlay
-              muted
-              loop
-              playsInline
-              controls
-              className="w-full object-cover max-h-screen"
-            >
-              <source src="/assets/videos/v_landing.webm" type="video/webm" />
-            </video>
+            <p className="text-white-v1/40 font-century-gothic text-xs">
+              Cuotas disponibles · Consultar por WhatsApp
+            </p>
           </div>
         </div>
 
-        {/* Scroll hint */}
-        <div className="flex justify-center pb-6">
-          <span className="text-white-v1/40 font-century-gothic text-xs tracking-widest animate-bounce">
-            ↓ ver programa
-          </span>
+        {/* Columna imagen */}
+        <div className="lg:w-[45%] w-full flex-none flex items-center justify-center bg-green-v1 lg:py-8 py-6 px-6 lg:px-8">
+          <Image
+            src="/assets/landing_hero.jpeg"
+            alt="Más allá del diagnóstico — Neurociencias en el Aula"
+            width={800}
+            height={1000}
+            className="w-full max-h-[90vh] object-contain rounded-2xl"
+            priority
+          />
         </div>
       </section>
 
@@ -446,7 +424,7 @@ export default function LandingMasAllaDelDiagnostico() {
           Elige el paquete que mejor se adapta a tus objetivos. Pago en cuotas disponible — consulta por WhatsApp.
         </p>
 
-        <div className="max-w-5xl mx-auto grid sm:grid-cols-2 lg:grid-cols-4 grid-cols-1 gap-5">
+        <div className="max-w-4xl mx-auto grid sm:grid-cols-3 grid-cols-1 gap-5">
           {paquetes.map((pkg, i) => (
             <div
               key={i}
