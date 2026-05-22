@@ -280,9 +280,9 @@ export default function LandingMasAllaDelDiagnostico() {
             {[
               {
                 icono: "🧠",
-                titulo: "Entender el cerebro en el aula",
+                titulo: "Entender el comportamiento desde las neurociencias",
                 texto:
-                  "Traducir neurociencia en estrategias concretas para acompañar a estudiantes con TDAH, TEA, dislexia y altas capacidades.",
+                  "Traducir neurociencia en estrategias concretas para acompañar a estudiantes con TDAH, TEA, dislexia y altas capacidades y otros perfiles neurodivergentes.",
               },
               {
                 icono: "🔍",
@@ -292,9 +292,9 @@ export default function LandingMasAllaDelDiagnostico() {
               },
               {
                 icono: "🛠",
-                titulo: "Intervenir con lo que tienes",
+                titulo: "Estrategias de intervención",
                 texto:
-                  "Adaptar tu práctica docente con cero presupuesto: ajustes de aula, evaluación diferenciada y protocolos de comunicación con familias.",
+                  "Adaptar tu práctica docente con bajo presupuesto: ajustes en el aula, evaluación diferenciada y protocolos de comunicación con familias.",
               },
             ].map((item, i) => (
               <div
@@ -316,7 +316,7 @@ export default function LandingMasAllaDelDiagnostico() {
 
       {/* ── MÓDULOS / TEMARIO ── */}
       <section className="bg-green-v1 py-16 sm:px-16 px-6">
-        <h2 className="text-white-v1 font-quirk text-4xl sm:text-6xl text-center mb-3">
+        <h2 className="text-white-v1 font-quirk text-5xl sm:text-7xl text-center mb-3">
           PROGRAMA COMPLETO
         </h2>
         <p className="text-brown-v2 font-century-gothic text-base sm:text-lg text-center mb-14">
@@ -325,24 +325,24 @@ export default function LandingMasAllaDelDiagnostico() {
 
         <div className="max-w-5xl mx-auto flex flex-col gap-10">
           {modulos.map((mod, i) => (
-            <div key={i} className="bg-white-v1/10 rounded-2xl p-6 sm:p-8">
+            <div key={i} className="bg-brown-v1 rounded-2xl p-6 sm:p-8">
               <div className="flex items-start gap-4 mb-6">
-                <span className="text-white-v1/25 font-quirk text-7xl leading-none flex-none">
+                <span className="text-white-v1/60 font-quirk text-7xl leading-none flex-none">
                   {mod.numero}
                 </span>
                 <div>
                   <h3 className="text-white-v1 font-century-gothic font-bold text-xl sm:text-2xl uppercase leading-tight">
                     {mod.titulo}
                   </h3>
-                  <p className="text-brown-v2 font-century-gothic text-sm sm:text-base mt-1">
+                  <p className="text-white-v1/60 font-century-gothic text-sm sm:text-base mt-1">
                     {mod.subtitulo}
                   </p>
                 </div>
               </div>
               <div className="flex flex-col gap-5">
                 {mod.clases.map((clase, j) => (
-                  <div key={j} className="border-l-2 border-brown-v2/60 pl-4">
-                    <p className="text-brown-v2 font-century-gothic text-xs sm:text-sm font-semibold uppercase tracking-wider mb-1">
+                  <div key={j} className="border-l-2 border-white-v1/60 pl-4">
+                    <p className="text-white-v1/60 font-century-gothic text-xs sm:text-sm font-semibold uppercase tracking-wider mb-1">
                       {clase.fecha}
                     </p>
                     <p className="text-white-v1 font-century-gothic font-semibold text-base sm:text-lg mb-1">
