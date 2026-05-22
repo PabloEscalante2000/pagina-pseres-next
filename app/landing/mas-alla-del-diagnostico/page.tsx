@@ -153,7 +153,7 @@ const avales = [
 ];
 
 const WHATSAPP_BASE =
-  "https://api.whatsapp.com/send?phone=51939491876&text=Hola%2C%20quisiera%20inscribirme%20al%20programa%20M%C3%A1s%20all%C3%A1%20del%20diagn%C3%B3stico";
+  "https://api.whatsapp.com/send?phone=51939491875&text=Hola%2C%20quisiera%20inscribirme%20al%20programa%20M%C3%A1s%20all%C3%A1%20del%20diagn%C3%B3stico";
 
 function CTAButton({
   texto,
@@ -244,7 +244,7 @@ export default function LandingMasAllaDelDiagnostico() {
             <div className="flex items-center gap-6">
               <div>
                 <p className="text-white-v1/60 font-century-gothic text-xs">Desde</p>
-                <p className="text-white-v1 font-quirk text-4xl leading-none">S/ 150</p>
+                <p className="text-white-v1 font-quirk text-4xl leading-none">S/ 50</p>
               </div>
               <CTAButton
                 texto="INSCRÍBETE AHORA"
