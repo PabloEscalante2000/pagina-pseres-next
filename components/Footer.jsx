@@ -33,12 +33,20 @@ export default function Footer() {
                     Centro Pseres: Psicoterapia y Psicoeducación
                 </p>
             </div>
-            <Link
-                href="/politica-de-privacidad"
-                className="text-white font-century-gothic text-sm border border-white/40 rounded-lg px-4 py-2 hover:bg-white hover:text-brown-v1 transition-colors"
-            >
-                Política de privacidad y cookies
-            </Link>
+            <div className="flex flex-wrap gap-3">
+                <Link
+                    href="/politica-de-privacidad"
+                    className="text-white font-century-gothic text-sm border border-white/40 rounded-lg px-4 py-2 hover:bg-white hover:text-brown-v1 transition-colors"
+                >
+                    Política de privacidad y cookies
+                </Link>
+                <Link
+                    href="/libro-de-reclamaciones"
+                    className="text-white font-century-gothic text-sm border border-white/40 rounded-lg px-4 py-2 hover:bg-white hover:text-brown-v1 transition-colors"
+                >
+                    Libro de reclamaciones
+                </Link>
+            </div>
         </div>
     </footer>
   )
